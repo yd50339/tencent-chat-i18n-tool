@@ -2,10 +2,10 @@
 /*
  * Generated file. Do not edit.
  *
- * Locales: 5
- * Strings: 3675 (735.0 per locale)
+ * Locales: 6
+ * Strings: 4410 (735.0 per locale)
  *
- * Built on 2023-08-24 at 04:55 UTC
+ * Built on 2023-10-14 at 02:31 UTC
  */
 
 import 'package:flutter/widgets.dart';
@@ -23,6 +23,7 @@ enum AppLocale {
 	en, // 'en' (base locale, fallback)
 	ja, // 'ja'
 	ko, // 'ko'
+	vi, // 'vi'
 	zhHans, // 'zh-Hans'
 	zhHant, // 'zh-Hant'
 }
@@ -153,6 +154,7 @@ class AppLocaleUtils {
 late _StringsEn _translationsEn = _StringsEn.build();
 late _StringsJa _translationsJa = _StringsJa.build();
 late _StringsKo _translationsKo = _StringsKo.build();
+late _StringsVi _translationsVi = _StringsVi.build();
 late _StringsZhHans _translationsZhHans = _StringsZhHans.build();
 late _StringsZhHant _translationsZhHant = _StringsZhHant.build();
 
@@ -168,6 +170,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return _translationsEn;
 			case AppLocale.ja: return _translationsJa;
 			case AppLocale.ko: return _translationsKo;
+			case AppLocale.vi: return _translationsVi;
 			case AppLocale.zhHans: return _translationsZhHans;
 			case AppLocale.zhHant: return _translationsZhHant;
 		}
@@ -185,6 +188,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return _StringsEn.build();
 			case AppLocale.ja: return _StringsJa.build();
 			case AppLocale.ko: return _StringsKo.build();
+			case AppLocale.vi: return _StringsVi.build();
 			case AppLocale.zhHans: return _StringsZhHans.build();
 			case AppLocale.zhHant: return _StringsZhHant.build();
 		}
@@ -195,6 +199,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return 'en';
 			case AppLocale.ja: return 'ja';
 			case AppLocale.ko: return 'ko';
+			case AppLocale.vi: return 'vi';
 			case AppLocale.zhHans: return 'zh-Hans';
 			case AppLocale.zhHant: return 'zh-Hant';
 		}
@@ -205,6 +210,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return const Locale.fromSubtags(languageCode: 'en');
 			case AppLocale.ja: return const Locale.fromSubtags(languageCode: 'ja');
 			case AppLocale.ko: return const Locale.fromSubtags(languageCode: 'ko');
+			case AppLocale.vi: return const Locale.fromSubtags(languageCode: 'vi');
 			case AppLocale.zhHans: return const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans', );
 			case AppLocale.zhHant: return const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant', );
 		}
@@ -217,6 +223,7 @@ extension StringAppLocaleExtensions on String {
 			case 'en': return AppLocale.en;
 			case 'ja': return AppLocale.ja;
 			case 'ko': return AppLocale.ko;
+			case 'vi': return AppLocale.vi;
 			case 'zh-Hans': return AppLocale.zhHans;
 			case 'zh-Hant': return AppLocale.zhHant;
 			default: return null;
@@ -2570,6 +2577,759 @@ class _StringsKo implements _StringsEn {
 	@override String get k_1l1p7uv => '시간별 순위 162위';
 	@override String get k_0p7ezww => '라이브 방에 오신 것을 환영합니다! 미성년자는 동영상 라이브 예능, 페이팔 또는 미성년자에게 술을 판매하는 것은 금지됩니다. 만약 술을 판매하는 브로드캐스트의 경 배경, 미성년자는 보호자의 동행 아래 만나시길 바랍니다. 브로드캐스트 방송에는 불법, 방송 아스크, 저속, 술, 신체 상해 내용이 엄격하게 금지됩니다. 라이브 방송 중 불올바른 방법으로 팁(리워드) 및 개별 거래가 주의하도록 부탁드립니다. 재산 손실 방지 상품 구매를 원하시면 아래 아이콘을 클릭바랍니다. 비공식 개별 거래 금지. 모든 국민들의 재산을 안전하게 유지하려고 인터넷 사기를 방지하십시오.';
 	@override String get k_0zw0eau => 'Flutter';
+}
+
+// Path: <root>
+class _StringsVi implements _StringsEn {
+
+	/// You can call this constructor and build your own translation instance of this locale.
+	/// Constructing via the enum [AppLocale.build] is preferred.
+	_StringsVi.build();
+
+	/// Access flat map
+	@override dynamic operator[](String key) => _flatMap[key];
+
+	// Internal flat map initialized lazily
+	@override late final Map<String, dynamic> _flatMap = _buildFlatMap();
+
+	@override late final _StringsVi _root = this; // ignore: unused_field
+
+	// Translations
+	@override String get k_1yemzyd => 'Nhận một tin nhắn';
+	@override String get k_0ylosxn => 'Tin nhắn tùy chỉnh';
+	@override String get k_13sajrj => 'Tin nhắn biểu cảm';
+	@override String get k_13sjeb7 => 'Tin nhắn tệp';
+	@override String get k_0yd2ft8 => 'Tin nhắn nhóm';
+	@override String get k_13s7mxn => 'Tin nhắn hình ảnh';
+	@override String get k_13satlt => 'Tin nhắn vị trí';
+	@override String get k_00bbtsx => 'Tin nhắn chuyển tiếp';
+	@override String get k_13sqwu4 => 'Tin nhắn thoại';
+	@override String get k_13sqjjp => 'Tin nhắn video';
+	@override String get k_1fdhj9g => 'Phiên bản này không hỗ trợ tin nhắn này';
+	@override String get k_06pujtm => 'Đồng ý cho tất cả người dùng kết bạn';
+	@override String get k_0gyhkp5 => 'Yêu cầu xác minh';
+	@override String get k_121ruco => 'Từ chối ai đó kết bạn';
+	@override String get k_05nspni => 'Trường tùy chỉnh';
+	@override String get k_03fchyy => 'Ảnh đại diện nhóm';
+	@override String get k_03i9mfe => 'Giới thiệu nhóm';
+	@override String get k_03agq58 => 'Tên nhóm';
+	@override String get k_039xqny => 'Thông báo nhóm';
+	@override String get k_003tr0a => 'Chủ nhóm';
+	@override String get k_03c49qt => 'Cấp quyền';
+	@override String get k_002wddw => 'Tắt tiếng';
+	@override String get k_0got6f7 => 'Bỏ tắt tiếng';
+	@override String get k_1uaqed6 => '[Tùy chỉnh]';
+	@override String get k_0z2z7rx => '[Tiếng]';
+	@override String get k_0y39ngu => '[Biểu tượng]';
+	@override String get k_0y1a2my => '[Hình ảnh]';
+	@override String get k_0z4fib8 => '[Video]';
+	@override String get k_0y24mcg => '[Vị trí]';
+	@override String get k_0pewpd1 => '[Lịch sử chat]';
+	@override String get k_13s8d9p => 'Tin nhắn không xác định';
+	@override String get k_1c3us5n => 'Nhóm hiện tại không hỗ trợ @ toàn bộ thành viên';
+	@override String get k_11k579v => 'Có câu lệnh không hợp lệ trong lời nói';
+	@override String get k_003qkx2 => 'Lịch';
+	@override String get k_003n2pz => 'Máy ảnh';
+	@override String get k_03idjo0 => 'Danh bạ';
+	@override String get k_003ltgm => 'Vị trí';
+	@override String get k_02k3k86 => 'Micro';
+	@override String get k_003pm7l => 'Album';
+	@override String get k_15ao57x => 'Cho phép ghi album';
+	@override String get k_164m3jd => 'Lưu trữ cục bộ';
+	@override String get k_03r6qyx => 'Chúng tôi cần sự cho phép của bạn để lấy thông tin';
+	@override String get k_02noktt => 'Không cho phép';
+	@override String get k_00043x4 => 'Tốt';
+	@override String get k_003qzac => 'Hôm qua';
+	@override String get k_003r39d => 'Hôm kia';
+	@override String get k_03fqp9o => 'Chủ nhật';
+	@override String get k_03ibg5h => 'Thứ hai';
+	@override String get k_03i7hu1 => 'Thứ ba';
+	@override String get k_03iaiks => 'Thứ tư';
+	@override String get k_03el9pa => 'Thứ năm';
+	@override String get k_03i7ok1 => 'Thứ sáu';
+	@override String get k_03efxyg => 'Thứ bảy';
+	@override String get k_003q7ba => 'Buổi chiều';
+	@override String get k_003q7bb => 'Buổi sáng';
+	@override String get k_003pu3h => 'Bây giờ';
+	@override String get k_0n9pyxz => 'Người dùng không tồn tại';
+	@override String get k_1bjwemh => 'Tìm kiếm ID người dùng';
+	@override String get k_003kv3v => 'Tìm kiếm';
+	@override String get k_16758qw => 'Thêm bạn';
+	@override String get k_0i553x0 => 'Nhập thông tin xác minh';
+	@override String get k_031ocwx => 'Vui lòng điền ghi chú và nhóm';
+	@override String get k_003ojje => 'Ghi chú';
+	@override String get k_003lsav => 'Nhóm';
+	@override String get k_167bdvq => 'Bạn bè của tôi';
+	@override String get k_156b4ut => 'Yêu cầu kết bạn đã được gửi';
+	@override String get k_002r305 => 'Gửi';
+	@override String get k_03gu05e => 'Phòng chat';
+	@override String get k_03b4f3p => 'Nhóm họp';
+	@override String get k_03avj1p => 'Nhóm công khai';
+	@override String get k_03asq2g => 'Nhóm công việc';
+	@override String get k_03b3hbi => 'Nhóm không rõ';
+	@override String k_1loix7s({required Object groupType}) => 'Loại nhóm: $groupType';
+	@override String get k_1lqbsib => 'Nhóm chat không tồn tại';
+	@override String get k_03h153m => 'Tìm kiếm ID nhóm';
+	@override String get k_0oxak3r => 'Yêu cầu nhóm đã được gửi';
+	@override String get k_002rflt => 'Xóa';
+	@override String get k_1don84v => 'Không thể xác định tin nhắn gốc';
+	@override String get k_003q5fi => 'Sao chép';
+	@override String get k_003prq0 => 'Chuyển tiếp';
+	@override String get k_002r1h2 => 'Chọn nhiều';
+	@override String get k_003j708 => 'Trích dẫn';
+	@override String get k_003pqpr => 'Rút lại';
+	@override String get k_03ezhho => 'Đã sao chép';
+	@override String get k_11ctfsz => 'Chưa triển khai';
+	@override String get k_1hbjg5g => '[Thông báo hệ thống nhóm]';
+	@override String get k_03tvswb => '[Tin nhắn không xác định]';
+	@override String get k_155cj23 => 'Bạn đã thu hồi một tin nhắn,';
+	@override String get k_0gapun3 => 'Chỉnh sửa lại';
+	@override String get k_1aszp2k => 'Bạn có chắc muốn gửi lại tin nhắn này không?';
+	@override String get k_003rzap => 'Xác nhận';
+	@override String get k_003nevv => 'Hủy bỏ';
+	@override String get k_0003z7x => 'Bạn';
+	@override String get k_002wfe4 => 'Đã đọc';
+	@override String get k_002wjlg => 'Chưa đọc';
+	@override String get k_0h1ygf8 => 'Bắt đầu cuộc gọi';
+	@override String get k_0h169j0 => 'Huỷ cuộc gọi';
+	@override String get k_0h13jjk => 'Chấp nhận cuộc gọi';
+	@override String get k_0h19hfx => 'Từ chối cuộc gọi';
+	@override String get k_0obi9lh => 'Quá thời gian không trả lời';
+	@override String get k_001nmhu => 'Mở bằng ứng dụng khác';
+	@override String get k_1ht1b80 => 'Đang nhận';
+	@override String get k_105682d => 'Tải ảnh không thành công';
+	@override String get k_0pytyeu => 'Lưu ảnh thành công';
+	@override String get k_0akceel => 'Lưu ảnh không thành công';
+	@override String get k_003rk1s => 'Lưu';
+	@override String get k_04a0awq => '[Tin nhắn thoại]';
+	@override String get k_105c3y3 => 'Tải video không thành công';
+	@override String get k_176rzr7 => 'Lịch sử chat';
+	@override String get k_0d5z4m5 => 'Chọn người nhắc nhở';
+	@override String get k_003ngex => 'Hoàn tất';
+	@override String get k_1665ltg => 'Bắt đầu cuộc gọi';
+	@override String get k_003n8b0 => 'Chụp ảnh';
+	@override String get k_003kthh => 'Ảnh';
+	@override String get k_003tnp0 => 'Tệp';
+	@override String get k_0jhdhtp => 'Gửi thất bại, video không được lớn hơn 100MB';
+	@override String get k_119ucng => 'Ảnh không thể trống';
+	@override String get k_13dsw4l => 'Nhả ra để hủy';
+	@override String get k_0am7r68 => 'Vuốt lên để hủy gửi';
+	@override String get k_15jl6qw => 'Thời gian nói quá ngắn!';
+	@override String get k_0gx7vl6 => 'Giữ để nói';
+	@override String get k_15dlafd => 'Chuyển tiếp từng tin nhắn';
+	@override String get k_15dryxy => 'Chuyển tiếp gộp tin nhắn';
+	@override String get k_1eyhieh => 'Xác nhận xóa tin nhắn đã chọn';
+	@override String get k_17fmlyf => 'Xóa cuộc trò chuyện';
+	@override String get k_0dhesoz => 'Hủy đặt ưu tiên';
+	@override String get k_002sk7x => 'Đặt ưu tiên';
+	@override String get k_003ll77 => 'Bản nháp';
+	@override String get k_03icaxo => 'Tùy chỉnh';
+	@override String get k_1uaov41 => 'Tìm kiếm nội dung chat';
+	@override String get k_003kfai => 'Không rõ';
+	@override String get k_13dq4an => 'Tự động phê duyệt';
+	@override String get k_0l13cde => 'Phê duyệt bởi quản trị viên';
+	@override String get k_11y8c6a => 'Cấm tham gia nhóm';
+	@override String get k_1kvyskd => 'Không có kết nối mạng, không thể chỉnh sửa';
+	@override String get k_16payqf => 'Cách gia nhập nhóm';
+	@override String get k_0vzvn8r => 'Chỉnh sửa tên nhóm';
+	@override String get k_038lh6u => 'Quản lý nhóm';
+	@override String get k_0k5wyiy => 'Thiết lập quản trị viên';
+	@override String get k_0goiuwk => 'Tắt tiếng cho tất cả';
+	@override String get k_1g889xx => 'Khi chế độ tắt tiếng cho tất cả bật lên, chỉ cho phép chủ nhóm và quản trị viên nói chuyện.';
+	@override String get k_0wlrefq => 'Thêm thành viên cần tắt tiếng';
+	@override String get k_0goox5g => 'Thiết lập tắt tiếng';
+	@override String get k_08daijh => 'Thành công hủy bỏ quyền quản trị viên';
+	@override String get k_0k5u935 => 'Thêm quản trị viên';
+	@override String get k_03enyx5 => 'Thành viên trong nhóm';
+	@override String get k_0h1svv1 => 'Xóa thành viên khỏi nhóm';
+	@override String get k_0h1g636 => 'Thêm thành viên vào nhóm';
+	@override String get k_0uj7208 => 'Không có kết nối mạng, không thể xem thành viên nhóm';
+	@override String get k_0hpukyx => 'Xem thêm thành viên nhóm';
+	@override String get k_0qtsar0 => 'Không làm phiền tin nhắn';
+	@override String get k_0ef2a12 => 'Chỉnh sửa biệt danh nhóm của tôi';
+	@override String get k_1aajych => 'Chỉ cho phép chữ cái, số và dấu gạch dưới, từ 2-20 ký tự';
+	@override String get k_137pab5 => 'Biệt danh nhóm của tôi';
+	@override String get k_0ivim6d => 'Chưa có thông báo nhóm';
+	@override String get k_03eq6cn => 'Thông báo nhóm';
+	@override String get k_002vxya => 'Chỉnh sửa';
+	@override String get k_17fpl3y => 'Ghim cuộc trò chuyện';
+	@override String get k_03es1ox => 'Loại nhóm';
+	@override String get k_003mz1i => 'Đồng ý';
+	@override String get k_003lpre => 'Từ chối';
+	@override String get k_003qk66 => 'Ảnh đại diện';
+	@override String get k_003lhvk => 'Biệt danh';
+	@override String get k_003ps50 => 'Tài khoản';
+	@override String get k_15lx52z => 'Chữ ký cá nhân';
+	@override String get k_003qgkp => 'Giới tính';
+	@override String get k_003m6hr => 'Ngày sinh';
+	@override String get k_0003v6a => 'Nam';
+	@override String get k_00043x2 => 'Nữ';
+	@override String get k_03bcjkv => 'Chưa cài đặt';
+	@override String get k_11s0gdz => 'Chỉnh sửa biệt danh';
+	@override String get k_0p3j4sd => 'Chỉ cho phép chữ cái, số và dấu gạch dưới';
+	@override String get k_15lyvdt => 'Chỉnh sửa chữ ký';
+	@override String get k_0vylzjp => 'Người này lười biếng, không viết gì cả';
+	@override String get k_1hs7ese => 'Chỉnh sau khi lên mạng';
+	@override String get k_03exjk7 => 'Tên ghi chú';
+	@override String get k_0s3skfd => 'Thêm vào danh sách chặn';
+	@override String get k_0p3b31s => 'Chỉnh sửa tên ghi chú';
+	@override String get k_0003y9x => 'Không có';
+	@override String get k_11zgnfs => 'Thông tin cá nhân';
+	@override String get k_1tez2xl => 'Chưa có chữ ký cá nhân';
+	@override String get k_118prbn => 'Tìm kiếm toàn bộ';
+	@override String get k_1m9dftc => 'Toàn bộ liên hệ';
+	@override String get k_0em4gyz => 'Toàn bộ nhóm chat';
+	@override String get k_002twmj => 'Nhóm chat';
+	@override String get k_09kga0d => 'Lịch sử trò chuyện hơn';
+	@override String get k_09khmso => 'Lịch sử trò chuyện liên quan';
+	@override String get k_0vjj2kp => 'Lịch sử trò chuyện của nhóm chat';
+	@override String get k_003n2rp => 'Chọn';
+	@override String get k_03ignw6 => 'Tất cả mọi người';
+	@override String get k_03erpei => 'Quản trị viên';
+	@override String get k_0qi9tno => 'Chủ nhóm, quản trị viên';
+	@override String get k_1m9exwh => 'Liên hệ gần đây';
+	@override String get k_119nwqr => 'Không được để trống';
+	@override String get k_0pzwbmg => 'Lưu video thành công';
+	@override String get k_0aktupv => 'Lưu video không thành công';
+	@override String k_1qbg9xc({required Object option8}) => '$option8 là ';
+	@override String k_1wq5ubm({required Object option7}) => '$option7 đã chỉnh sửa';
+	@override String k_0y5pu80({required Object option6}) => '$option6 đã thoát khỏi nhóm';
+	@override String k_0nl7cmd({required Object option5}) => 'Mời $option5 tham gia nhóm';
+	@override String k_1ju5iqw({required Object option4}) => 'Xóa $option4 khỏi nhóm';
+	@override String k_1ovt677({required Object option3}) => 'Người dùng $option3 đã tham gia cuộc trò chuyện nhóm';
+	@override String k_0k05b8b({required Object option2}) => '$option2 bị ';
+	@override String k_0wm4xeb({required Object option2}) => 'Tin nhắn hệ thống $option2';
+	@override String k_0nbq9v3({required Object option2}) => 'Thời gian cuộc gọi: $option2';
+	@override String k_0i1kf53({required Object option2}) => '[Tệp] $option2';
+	@override String k_1gnnby6({required Object option2}) => '$option2 muốn truy cập vào ';
+	@override String k_1wh4atg({required Object option2}) => '$option2 phút trước';
+	@override String k_07sh7g1({required Object option2}) => 'Hôm qua $option2';
+	@override String k_1pj8xzh({required Object option2}) => 'ID người dùng của tôi: $option2';
+	@override String k_0py1evo({required Object option2}) => 'Chữ ký cá nhân: $option2';
+	@override String k_1kvj4i2({required Object option2}) => '$option2 đã rút lại một tin nhắn';
+	@override String k_1v0lbpp({required Object option2}) => '“$option2” không thể mở loại tệp này tạm thời, bạn có thể sử dụng ứng dụng khác để mở và xem trước';
+	@override String k_0torwfz({required Object option2}) => 'Chọn thành công $option2';
+	@override String k_0i1bjah({required Object option1}) => '$option1 đã rút lại một tin nhắn';
+	@override String k_1qzxh9q({required Object option3}) => 'Thời gian cuộc gọi: $option3';
+	@override String k_0wrgmom({required Object option1}) => '[Cuộc nói chuyện giọng]: $option1';
+	@override String k_06ix2f0({required Object option2}) => '[Cuộc gọi video]: $option2';
+	@override String k_08o3z5w({required Object option1}) => '[Tệp] $option1';
+	@override String k_0ezbepg({required Object option2}) => '$option2[Đã @ tôi]';
+	@override String k_1ccnht1({required Object option2}) => '$option2[@Toàn bộ]';
+	@override String k_1k3arsw({required Object option2}) => 'Quản trị viên ($option2/10)';
+	@override String k_1d4golg({required Object option1}) => 'Thành viên nhóm ($option1 người)';
+	@override String k_1bg69nt({required Object option1}) => '$option1 người';
+	@override String k_00gjqxj({required Object option1}) => 'Chữ ký cá nhân: $option1';
+	@override String k_0c29cxr({required Object option1}) => '$option1 cuộc trò chuyện liên quan';
+	@override String k_1twk5rz({required Object option1}) => 'Cuộc trò chuyện với $option1';
+	@override String k_1vn4xq1({required Object adminMember}) => 'Hủy quản trị viên của $adminMember';
+	@override String get k_0e35hsw => 'Để tiện cho việc gửi ảnh hoặc video bạn chụp đến bạn bè và thực hiện cuộc gọi video, vui lòng cho phép chúng tôi truy cập máy ảnh để chụp ảnh và video.';
+	@override String get k_0dj6yr7 => 'Để tiện cho việc gửi tin nhắn thoại, quay video và cuộc gọi âm thanh, vui lòng cho phép chúng tôi sử dụng microphone để ghi âm.';
+	@override String get k_003qnsl => 'Lưu trữ';
+	@override String get k_0s3rtpw => 'Để tiện cho việc xem và chọn ảnh hoặc video từ album và gửi đến bạn bè, cũng như lưu nội dung vào thiết bị của bạn, vui lòng cho phép chúng tôi truy cập ảnh và nội dung truyền thông trên thiết bị của bạn.';
+	@override String k_0tezv85({required Object option2}) => 'Yêu cầu truy cập $option2';
+	@override String get k_002rety => 'Quyền';
+	@override String get k_18o68ro => 'Cần cấp';
+	@override String get k_1onpf8u => ' Quyền camera để sử dụng chức năng chụp ảnh, quay video và cuộc gọi video bình thường.';
+	@override String get k_17irga5 => ' Quyền truy cập microphone, để sử dụng các tính năng như gửi tin nhắn giọng nói, quay video, gọi video và âm thanh.';
+	@override String get k_0572kc4 => ' Quyền truy cập vào ảnh, để sử dụng các tính năng như gửi hình ảnh, video.';
+	@override String get k_0slykws => ' Quyền truy cập ghi vào album ảnh, để sử dụng chức năng lưu trữ hình ảnh, video.';
+	@override String get k_119pkcd => ' Quyền truy cập đọc và ghi tệp, để sử dụng tính năng xem và chọn hình ảnh trong cuộc trò chuyện và gửi tệp.';
+	@override String get k_0gqewd3 => 'Sau này';
+	@override String get k_03eq4s1 => 'Mở';
+	@override String get k_0nt2uyg => 'Quay lại vị trí mới nhất';
+	@override String k_04l16at({required Object option1}) => '$option1 tin nhắn mới';
+	@override String get k_13p3w93 => 'Có người @ tôi';
+	@override String get k_18w5uk6 => '@ Toàn bộ';
+	@override String get k_0jmujgh => 'Đang nhận tệp khác';
+	@override String get k_12s5ept => 'Chi tiết tin nhắn';
+	@override String k_0mxa4f4({required Object option1}) => '$option1 đã đọc';
+	@override String k_061tue3({required Object option2}) => '$option2 đã chưa đọc';
+	@override String get k_18qjstb => 'Chuyển nhượng chủ sở hữu';
+	@override String k_0on1aj2({required Object option2}) => 'Có $option2 tin nhắn @ tôi';
+	@override String get k_09j4izl => '[Có người @ tôi] ';
+	@override String get k_1oqtjw0 => '[@ Toàn bộ nhóm] ';
+	@override String k_1x5a9vb({required Object option1}) => 'Tôi là: $option1';
+	@override String get k_14n31e7 => 'Yêu cầu tham gia nhóm';
+	@override String k_08nc5j1({required Object option1}) => 'Loại nhóm: $option1';
+	@override String k_1josu12({required Object option1}) => '$option1 yêu cầu tham gia nhóm';
+	@override String k_0n2x5s0({required Object option2}) => 'Thông điệp xác minh: $option2';
+	@override String get k_03c1nx0 => 'Đã đồng ý';
+	@override String get k_03aw9w8 => 'Đã từ chối';
+	@override String get k_038ryos => 'Xử lý';
+	@override String get k_0gw8pum => 'Yêu cầu tham gia nhóm';
+	@override String get k_1gcvfrj => 'Vui lòng nhập ghi chú';
+	@override String get k_002v9zj => 'Xác nhận';
+	@override String get k_10oqrki => 'Chạm để chụp ảnh';
+	@override String get k_0f8b3ws => 'Tải không thành công';
+	@override String get k_11cm5lm => 'Tự lựa chọn điểm chạm';
+	@override String get k_002uzrd => 'Xem trước';
+	@override String get k_003qkn3 => 'Quay video';
+	@override String get k_003k6a7 => 'Chụp ảnh';
+	@override String get k_0bqpqco => 'Nút chụp ảnh';
+	@override String get k_1626ozl => 'Dừng quay video';
+	@override String get k_003lvmu => 'Mặt trước';
+	@override String get k_003lued => 'Mặt sau';
+	@override String get k_003lwzh => 'Ngoài';
+	@override String get k_002qzi3 => 'Đóng';
+	@override String get k_003pufb => 'Tự động';
+	@override String get k_0apm0ze => 'Đèn flash khi chụp ảnh';
+	@override String get k_157zog5 => 'Luôn bật đèn flash';
+	@override String k_0cfyqhy({required Object option1}) => '$option1 màn hình xem trước';
+	@override String k_0phctlz({required Object option2}) => 'Chế độ đèn flash: $option2';
+	@override String k_02vfqe0({required Object option3}) => 'Chuyển sang camera $option3';
+	@override String get k_0f0y9ex => 'Thời gian nói quá ngắn';
+	@override String get k_0ln70tk => 'Không thể mở URL';
+	@override String get k_11a3jdv => 'Chạm để chụp ảnh, giữ để quay video';
+	@override String get k_1k18miv => 'Vui lòng cung cấp phương thức điều hướng đến trang chủ hoặc trang khác khi rời khỏi nhóm.';
+	@override String get k_0gmwbnd => 'Tất cả thành viên bị cấm nói chuyện';
+	@override String get k_0got2zr => 'Bạn đã bị cấm nói chuyện';
+	@override String get k_0y9jck8 => 'Bạn phải tạo thanh tìm kiếm tùy chỉnh và xử lý việc nhấp để chuyển đến trang khác';
+	@override String get k_0yum3tv => 'Nếu sử dụng khu vực tùy chỉnh, hãy chuyển đến thành phần tương ứng trong profileWidgetBuilder';
+	@override String get k_09kalj0 => 'Xóa lịch sử chat';
+	@override String get k_14j5iul => 'Xóa và thoát';
+	@override String get k_125ru1w => 'Giải tán nhóm này';
+	@override String get k_0jtutmw => 'Sau khi thoát, bạn sẽ không nhận được tin nhắn nhóm này nữa';
+	@override String get k_0jtzmqa => 'Sau khi giải tán, bạn sẽ không nhận được tin nhắn nhóm này nữa';
+	@override String get k_0r8fi93 => 'Thêm bạn thành công';
+	@override String get k_02qw14e => 'Yêu cầu kết bạn đã được gửi';
+	@override String get k_0n3md5x => 'Người dùng hiện tại bị chặn';
+	@override String get k_094phq4 => 'Thêm bạn thất bại';
+	@override String get k_129scag => 'Xóa bạn thành công';
+	@override String get k_129uzfn => 'Xóa bạn thất bại';
+	@override String get k_1666isy => 'Xóa tất cả bạn';
+	@override String get k_1679vrd => 'Thêm bạn';
+	@override String get k_0h18bbi => 'Kết thúc cuộc gọi';
+	@override String get k_154q2hn => 'Cuộc gọi vượt quá thời gian, không có phản hồi';
+	@override String get k_1mnjtnc => 'Đối tác đã cúp máy';
+	@override String get k_0l0mysn => 'Có lỗi xảy ra:';
+	@override String get k_03fn6rg => 'Không có phản hồi';
+	@override String get k_003luo3 => 'Bận';
+	@override String get k_154jvfi => 'Bạn bị đẩy ra';
+	@override String get k_1sp7jp6 => 'Hủy cuộc gọi';
+	@override String get k_1045haa => 'Đang chờ đối tác chấp nhận lời mời...';
+	@override String get k_1gq7jv7 => 'Mời bạn tham gia cuộc gọi...';
+	@override String get k_003m7ey => 'Kết thúc cuộc gọi';
+	@override String get k_03ectox => 'Loa ngoài';
+	@override String get k_003q2a4 => 'Nhận cuộc gọi';
+	@override String get k_03ftugq => 'Camera';
+	@override String get k_10setgr => 'Chuyển thành cuộc gọi thoại';
+	@override String get k_1g7i9jz => 'Chuyển đổi camera';
+	@override String get k_15ml1ls => 'Đang chờ nhận cuộc gọi';
+	@override String get k_0nj9x9s => 'Mời bạn tham gia cuộc gọi nhiều người';
+	@override String get k_1vtto3l => 'Người tham gia cuộc gọi còn có:';
+	@override String get k_0h147mx => 'Đang trong cuộc gọi';
+	@override String k_0j6aylo({required Object option1}) => 'Thời gian cuộc gọi: $option1';
+	@override String get k_1fu9ahv => 'Trạng thái tắt tiếng toàn bộ';
+	@override String get k_1ualc52 => 'Kiểm tra dữ liệu mà đối tác mang theo';
+	@override String get k_0szluvp => 'Đặt trạng thái trực tuyến cho đối tác';
+	@override String get k_0f4rnf8 => 'Người dùng này đã là bạn';
+	@override String get k_1tdkom4 => 'Bạn đã là thành viên nhóm';
+	@override String get k_1p2lyuz => 'Người dùng đang nhập...';
+	@override String k_1g8wfpy({required Object option1}) => '...Tổng cộng $option1 người';
+	@override String get k_12rv9vw => 'Chi tiết phản hồi';
+	@override String get k_0n9p7g8 => 'Nhóm không tồn tại';
+	@override String get k_1tdh5vn => 'Bạn không phải là thành viên nhóm';
+	@override String get k_0h1q57v => 'Hiện không có thành viên nhóm';
+	@override String k_0y5drq1({required Object option1}) => '[Xem chi tiết >>]($option1)';
+	@override String get k_03pjp61 => '[Tin nhắn biểu cảm]';
+	@override String get k_1jpvzul => '[Tin nhắn tùy chỉnh]';
+	@override String get k_03u3bh1 => '[Tin nhắn tệp tin]';
+	@override String get k_1odsnsw => '[Tin nhắn nhóm]';
+	@override String get k_03sel4t => '[Tin nhắn hình ảnh]';
+	@override String get k_03sfw3r => '[Tin nhắn vị trí]';
+	@override String get k_03xpuwq => '[Tin nhắn gộp]';
+	@override String get k_07ycxwo => '[Không có phần tử]';
+	@override String get k_03rc9vz => '[Tin nhắn văn bản]';
+	@override String get k_046uopf => '[Tin nhắn video]';
+	@override String get k_0ehmsun => 'Dung lượng lưu trữ thiết bị không đủ, vui lòng dọn dẹp để có trải nghiệm sử dụng tốt hơn';
+	@override String get k_003kmos => 'Hình ảnh';
+	@override String get k_002s86q => 'Video';
+	@override String get k_06bk5ei => 'Chỉ hỗ trợ tin nhắn video định dạng mp4';
+	@override String get k_13opfxf => 'Trang web không hỗ trợ tìm kiếm';
+	@override String get k_1i0o0y2 => 'Tạm thời chỉ hỗ trợ trên Android/iOS';
+	@override String k_045dtzl({required Object option1}) => 'Lịch sử trò chuyện của $option1';
+	@override String get k_0t0131u => 'Thông tin nhóm';
+	@override String get k_18ok8xz => 'Phương thức nhận tin nhắn';
+	@override String get k_03ax3ks => 'Thông tin nhóm';
+	@override String k_0sqvoqo({required Object option1}) => 'Đặt $option1 thành quản trị viên';
+	@override String k_1gbg1v8({required Object option1}) => 'Hủy quyền quản trị viên của $option1';
+	@override String get k_17k64g4 => 'Tạo nhóm trò chuyện thành công!';
+	@override String get k_05mn217 => 'Chưa cài đặt gói biểu cảm, nếu muốn sử dụng tính năng liên quan đến biểu cảm, vui lòng cài đặt theo tài liệu này: https://cloud.tencent.com/document/product/269/70746';
+	@override String get k_14j17nz => 'Không có gói biểu cảm';
+	@override String get k_1tmlcf0 => 'Cuộc gọi mới đến, nhưng do không đủ quyền hạn, không thể nhận cuộc gọi. Vui lòng kiểm tra và bật quyền truy cập máy ảnh/micro.';
+	@override String get k_0fvjexh => 'Đang tải xuống';
+	@override String get k_1cdagzz => 'Đã thêm vào hàng đợi tải xuống, đang tải các tệp khác';
+	@override String get k_0g4vojc => 'Bắt đầu tải xuống';
+	@override String get k_026hiq5 => 'Đang tải danh sách tin nhắn';
+	@override String get k_0b9q00i => 'Tòa nhà Tencent/////Tòa nhà South Nanshan, Đại lộ Shennan, Quận Nam Sơn, Thâm Quyến';
+	@override String get k_03fw6h1 => 'Thành phố Thâm Quyến';
+	@override String get k_0f7mdn7 => 'Tìm kiếm thất bại';
+	@override String get k_158cssa => 'Bản đồ Tencent';
+	@override String get k_157htdw => 'Bản đồ Amap';
+	@override String get k_157im4z => 'Bản đồ Baidu';
+	@override String get k_157m20e => 'Bản đồ Apple';
+	@override String get k_1bqk7kl => 'Không tìm thấy bản đồ Amap';
+	@override String get k_12ba1nv => 'Không tìm thấy bản đồ Tencent';
+	@override String get k_1dz8sci => 'Không tìm thấy bản đồ Baidu';
+	@override String get k_0f7fvky => 'Mở thất bại';
+	@override String get k_1l2v0we => 'Trong Toà nhà Tencent, gần Toà nhà nghiên cứu thông tin CMB 18m';
+	@override String get k_10o8gk2 => 'Tìm kiếm địa điểm';
+	@override String get k_10o86v7 => 'Địa điểm không xác định';
+	@override String get k_0elt0kw => 'Thêm nhóm trò chuyện';
+	@override String get k_03f15qk => 'Danh sách đen';
+	@override String get k_0s3p3ji => 'Không có danh sách đen';
+	@override String get k_0uc5cnb => 'Chúng tôi vẫn đang trong giai đoạn thử nghiệm, chưa hỗ trợ tạo kênh.';
+	@override String get k_0s5ey0o => 'Âm thanh và video chất lượng cao TRTC';
+	@override String get k_03gpl3d => 'Xin chào mọi người';
+	@override String get k_0352fjr => 'Không có kết nối mạng, không thể tham gia kênh';
+	@override String get k_0d7n018 => 'Kết thúc chủ đề';
+	@override String get k_0d826hk => 'Ghim chủ đề';
+	@override String get k_15wcgna => 'Kết thúc thành công';
+	@override String get k_15wo7xu => 'Ghim thành công';
+	@override String k_02slfpm({required Object errorMessage}) => 'Xảy ra lỗi $errorMessage';
+	@override String get k_0h22snw => 'Cuộc gọi thoại';
+	@override String get k_0h20hg5 => 'Cuộc gọi video';
+	@override String get k_002s934 => 'Chủ đề';
+	@override String get k_18g3zdo => 'Giao tiếp thông tin đám mây·IM';
+	@override String get k_1m8vyp0 => 'Người liên hệ mới';
+	@override String get k_0elz70e => 'Nhóm trò chuyện của tôi';
+	@override String get k_18tb4mo => 'Không có người liên hệ';
+	@override String get k_18nuh87 => 'Liên hệ với chúng tôi';
+	@override String get k_1uf134v => 'Phản hồi và đề xuất có thể tham gia vào nhóm QQ: 788910197';
+	@override String get k_0xlhhrn => 'Thời gian trực tuyến: Thứ hai đến thứ sáu, từ 10 giờ sáng đến 8 giờ tối';
+	@override String get k_0gmpgcg => 'Không có cuộc trò chuyện';
+	@override String get k_1m8zuj4 => 'Chọn người liên hệ';
+	@override String get k_002tu9r => 'Hiệu suất';
+	@override String k_0vwtop2({required Object getMsg}) => 'Thông báo nhận được: $getMsg';
+	@override String k_0upijvs({required Object message}) => 'Lấy danh sách vùng thảo luận không thành công $message';
+	@override String get k_1tmcw5c => 'Vui lòng điền tiêu đề chủ đề';
+	@override String get k_1cnmslk => 'Phải chọn một nhãn';
+	@override String k_0v5hlay({required Object message}) => 'Tạo chủ đề thất bại $message';
+	@override String get k_0z3ytji => 'Tạo chủ đề thành công';
+	@override String get k_1a8vem3 => 'Người tạo gặp sự cố';
+	@override String get k_0eskkr1 => 'Chọn vùng thảo luận';
+	@override String get k_0d7plb5 => 'Tạo chủ đề';
+	@override String get k_144t0ho => '---- Thảo luận liên quan ----';
+	@override String get k_0pnz619 => 'Nhập tiêu đề chủ đề';
+	@override String get k_136v279 => '+Nhãn (thêm ít nhất một)';
+	@override String get k_04hjhvp => 'Tham số vùng thảo luận bất thường';
+	@override String get k_002r79h => 'Tất cả';
+	@override String get k_03ejkb6 => 'Đã tham gia';
+	@override String get k_172tngw => 'Chủ đề (không kết nối)';
+	@override String get k_0rnmfc4 => 'Không có chủ đề trong vùng thảo luận này';
+	@override String get k_1pq0ybn => 'Chưa tham gia bất kỳ chủ đề nào';
+	@override String get k_0bh95w0 => 'Không có kết nối mạng, không thể truy cập vào chủ đề';
+	@override String get k_0em28sp => 'Không có nhóm trò chuyện';
+	@override String get k_04dqh36 => 'Không có danh sách liên hệ mới';
+	@override String get k_08k00l9 => 'Đang tải...';
+	@override String get k_197r4f7 => 'Kết nối dịch vụ tức thì thành công';
+	@override String get k_1s5xnir => 'Khởi tạo SDK trò chuyện tức thì thất bại';
+	@override String k_0owk5ss({required Object failedReason}) => 'Đăng nhập thất bại $failedReason';
+	@override String get k_15bxnkw => 'Mất kết nối mạng';
+	@override String get k_0glj9us => 'Bắt đầu cuộc trò chuyện';
+	@override String get k_1631kyh => 'Tạo nhóm làm việc';
+	@override String get k_1644yii => 'Tạo nhóm xã hội';
+	@override String get k_1fxfx04 => 'Tạo nhóm họp';
+	@override String get k_1cnkqc9 => 'Tạo nhóm trực tiếp';
+	@override String get k_002r09z => 'Kênh';
+	@override String get k_003nvk2 => 'Thông báo';
+	@override String get k_1jwxwgt => 'Đang kết nối...';
+	@override String get k_03gm52d => 'Danh bạ';
+	@override String get k_003k7dc => 'Của tôi';
+	@override String get k_14yh35u => 'Đăng nhập · Trò chuyện trực tiếp';
+	@override String get k_0st7i3e => 'Trải nghiệm chat nhóm, trò chuyện âm thanh và video IM';
+	@override String get k_0cr1atw => 'Trung Quốc đại lục';
+	@override String get k_0mnxjg7 => 'Chào mừng bạn đến với IM của Tencent Cloud, để bảo vệ an ninh thông tin cá nhân của bạn, chúng tôi đã cập nhật《Chính sách bảo mật》, tăng cường nội dung và mục đích cụ thể trong việc thu thập thông tin người dùng và sử dụng SDK của bên thứ ba.';
+	@override String get k_1545beg => 'Vui lòng nhấp vào';
+	@override String get k_0opnzp6 => '《Thỏa thuận người dùng》';
+	@override String get k_00041m1 => 'và';
+	@override String get k_0orhtx0 => '《Chính sách bảo mật》';
+	@override String get k_11x8pvm => 'Và đọc kỹ nội dung trên, nếu bạn đồng ý với những nội dung trên, hãy nhấp vào “Đồng ý và tiếp tục” để bắt đầu sử dụng sản phẩm và dịch vụ của chúng tôi!';
+	@override String get k_17nw8gq => 'Đồng ý và tiếp tục';
+	@override String get k_1nynslj => 'Không đồng ý và thoát';
+	@override String get k_0jsvmjm => 'Vui lòng nhập số điện thoại di động';
+	@override String get k_1lg8qh2 => 'Định dạng số điện thoại không đúng';
+	@override String get k_03jia4z => 'Không có kết nối mạng';
+	@override String get k_007jqt2 => 'Gửi mã xác nhận thành công';
+	@override String get k_1a55aib => 'Mã xác thực bất thường';
+	@override String k_1mw45lz({required Object errorReason}) => 'Đăng nhập thất bại$errorReason';
+	@override String get k_16r3sej => 'Quốc gia/Khu vực';
+	@override String get k_15hlgzr => 'Chọn mã khu vực của quốc gia của bạn';
+	@override String get k_1bnmt3h => 'Vui lòng sử dụng tiếng Anh để tìm kiếm';
+	@override String get k_03fei8z => 'Số điện thoại di động';
+	@override String get k_03aj66h => 'Mã xác nhận';
+	@override String get k_1m9jtmw => 'Vui lòng nhập mã xác nhận';
+	@override String get k_0y1wbxk => 'Nhận mã xác nhận';
+	@override String get k_002ri2g => 'Đăng nhập';
+	@override String get k_161ecly => 'Không có kết nối mạng hiện tại';
+	@override String get k_11uz2i8 => 'Thử lại kết nối mạng';
+	@override String get k_1vhzltr => 'Tencent Cloud Chát trực tiếp IM';
+	@override String get k_0j433ys => 'TRTC của Tencent Cloud';
+	@override String get k_0epvs61 => 'Thay đổi giao diện';
+	@override String get k_12u8g8l => 'Tuyên bố từ chối trách nhiệm';
+	@override String get k_1p0j8i3 => 'Chát trực tiếp IM (sản phẩm “Ninh Cấm”) được cung cấp bởi Tencent Cloud, Tencent Cloud sở hữu quyền tác giả và quyền sở hữu của sản phẩm này. Sản phẩm chỉ dùng để trải nghiệm chức năng, không được sử dụng cho bất kỳ mục đích kinh doanh nào. Để phù hợp với yêu cầu giám sát của các cơ quan liên quan, tất cả hoạt động giao tiếp âm thanh và hình ảnh trong sản phẩm này sẽ được ghi âm và ghi hình, cấm nghiêm việc tiếp tay truyền tải nội dung trái pháp luật như khiêu dâm, lăng mạ hay khủng bố.';
+	@override String get k_0k7qoht => 'Đồng ý cho bất kỳ người dùng nào thêm bạn làm bạn';
+	@override String get k_1j91bvz => 'TUIKIT đã chọn một avatar cho bạn?';
+	@override String get k_1wmkneq => 'Cần xác thực khi tôi thêm bạn làm bạn';
+	@override String get k_1eitsd0 => 'Về Tencent Cloud · Truyền thông';
+	@override String get k_1919d6m => 'Quy định về quyền riêng tư';
+	@override String get k_0wqhgor => 'Danh sách thu thập thông tin cá nhân';
+	@override String get k_12rfxml => 'Danh sách chia sẻ thông tin bên thứ ba';
+	@override String get k_131g7q4 => 'Hủy đăng ký tài khoản';
+	@override String get k_03fel2u => 'Số phiên bản';
+	@override String get k_16kts8h => 'Đăng xuất';
+	@override String get k_13spdki => 'Gửi tin nhắn';
+	@override String get k_14c600t => 'Chỉnh sửa ghi chú';
+	@override String get k_1f811a4 => 'Hỗ trợ số, chữ, dấu gạch chân';
+	@override String get k_11z7ml4 => 'Thông tin chi tiết';
+	@override String get k_1ajt0b1 => 'Không thể lấy vị trí hiện tại';
+	@override String get k_0lhm9xq => 'Thành công tìm kiếm';
+	@override String get k_0fdeled => 'Không thành công tìm kiếm';
+	@override String get k_1yh0a50 => 'mapDidLoad-Đã tải xong bản đồ';
+	@override String get k_1t2zg6h => 'Kiểm tra mã xác nhận hình ảnh không thành công';
+	@override String get k_03ibfd2 => 'Ngày chủ nhật';
+	@override String k_1o7lf2y({required Object errorMessage}) => 'Lỗi máy chủ: $errorMessage';
+	@override String k_118l7sq({required Object requestErrorMessage}) => 'Lỗi yêu cầu: $requestErrorMessage';
+	@override String get k_003nfx9 => 'Nghiêm nặng';
+	@override String get k_003rvjp => 'Nhanh nhẹn';
+	@override String get k_003rtht => 'Tươi sáng';
+	@override String get k_003qxiw => 'Mơ mộng';
+	@override String k_0s5zoi3({required Object option1}) => 'Đã xảy ra lỗi $option1';
+	@override String k_0i8egqa({required Object option8}) => 'Thông báo nhận được: $option8';
+	@override String k_0pokyns({required Object option8}) => 'Không thể lấy danh sách diễn đàn $option8';
+	@override String k_1y03m8a({required Object option8}) => 'Không thể tạo chủ đề $option8';
+	@override String k_1v6uh9c({required Object option8}) => 'Đăng nhập không thành công $option8';
+	@override String k_0t5a9hl({required Object option1}) => 'Đăng nhập không thành công $option1';
+	@override String k_0k3uv02({required Object option8}) => 'Lỗi máy chủ: $option8';
+	@override String k_1g9o3kz({required Object option8}) => 'Lỗi yêu cầu: $option8';
+	@override String get k_14cahuz => 'Về Tencent Cloud · IM';
+	@override String get k_0llnalm => 'Phiên bản SDK';
+	@override String get k_13dyfii => 'Phiên bản ứng dụng';
+	@override String get k_12h52zh => 'Chính sách bảo mật';
+	@override String get k_0fxhhwb => 'Điều khoản sử dụng';
+	@override String get k_18z2e6q => 'IM Truyền tin tức thời (sản phẩm “Sản phẩm này”) được cung cấp bởi Tencent Cloud và Tencent Cloud sở hữu bản quyền và quyền sở hữu của sản phẩm này. Sản phẩm này chỉ được sử dụng cho trải nghiệm chức năng và không được sử dụng cho bất kỳ mục đích kinh doanh nào. Cấm nghiêm khắc việc truyền tải nội dung vi phạm pháp luật như nội dung khiêu dâm, lăng mạ, khủng bố, liên quan đến chính trị trong quá trình sử dụng.';
+	@override String get k_0zu7dd7 => 'Danh sách thu thập thông tin';
+	@override String get k_0mcqhgh => 'Danh sách chia sẻ thông tin';
+	@override String get k_12eqaty => 'Xác nhận đăng xuất tài khoản';
+	@override String get k_0ziqsr6 => 'Đăng xuất tài khoản thành công!';
+	@override String get k_002qtgt => 'Đăng xuất';
+	@override String k_0rvdu91({required Object option1}) => 'Sau khi đăng xuất, bạn sẽ không thể sử dụng tài khoản hiện tại và dữ liệu liên quan sẽ bị xóa và không thể khôi phục. ID tài khoản hiện tại: $option1';
+	@override String get k_15d22qk => 'Đăng xuất tài khoản';
+	@override String get k_036uv3f => 'Tencent Cloud IM';
+	@override String get k_167916k => 'Bạn bè WeChat';
+	@override String get k_03euwr1 => 'Vòng bạn bè';
+	@override String get k_0cxccci => 'Mời bạn tham gia cuộc gọi video';
+	@override String get k_06lhh4b => 'Mời bạn tham gia cuộc gọi thoại';
+	@override String get k_1ywo9ut => 'Truyền tin tức thời IM (Truyền tin tức thời) được phát triển dựa trên khả năng IM cơ bản của QQ, chỉ cần cài đặt SDK để dễ dàng tích hợp chức năng trò chuyện, cuộc trò chuyện, nhóm, quản lý thông tin và khả năng bình luận trực tiếp, cũng hỗ trợ kết nối với các sản phẩm khác như tin nhắn tín hiệu và bảng trắng, đáp ứng đầy đủ các kịch bản kinh doanh của bạn, hỗ trợ việc tích hợp ứng dụng nhỏ trên các nền tảng lớn, đáp ứng đầy đủ nhu cầu liên lạc';
+	@override String get k_0ios26v => 'Không phát hiện được cài đặt WeChat';
+	@override String get k_1jg6d5x => '《Tóm tắt chính sách bảo mật》';
+	@override String get k_0selni4 => '《Chính sách bảo mật》';
+	@override String get k_10s6v2i => '《Danh sách thu thập thông tin》';
+	@override String get k_0pasxq8 => '《Danh sách chia sẻ thông tin》';
+	@override String get k_003r6vf => 'Đăng nhập';
+	@override String get k_03f2zbs => 'Chia sẻ lên';
+	@override String get k_0cfkcaz => 'Thông báo đẩy';
+	@override String get k_1rmkb2w => 'Đẩy thông báo tin nhắn mới';
+	@override String get k_1lg375c => 'Thông báo tin nhắn mới';
+	@override String k_1t0akzp({required Object option1}) => 'Sau khi đăng xuất, bạn sẽ không thể sử dụng tài khoản hiện tại và dữ liệu liên quan sẽ bị xóa và không thể khôi phục. ID tài khoản hiện tại: $option1';
+	@override String get k_1699p6d => 'Tòa nhà Tencent';
+	@override String get k_1ngd60h => 'Số 10000 Đại lộ Thâm Nam, Thâm Quyến, Trung Quốc';
+	@override String get k_1na29vg => 'Bảo trì tin nhắn vị trí';
+	@override String get k_1xmms9t => 'Danh sách yêu cầu tham gia nhóm';
+	@override String get k_0dla4vp => 'Góp ý và đề xuất có thể tham gia nhóm QQ';
+	@override String get k_1odrjd1 => 'Thời gian trực tuyến: Thứ Hai đến Thứ Sáu, từ 10 giờ sáng đến 8 giờ tối';
+	@override String get k_1bh903m => 'Sao chép thành công số nhóm QQ';
+	@override String get k_16264lp => 'Sao chép số nhóm';
+	@override String get k_18ger86 => 'Tencent Cloud · IM';
+	@override String get k_1vd70l1 => 'Công nghệ truyền tin tức thời phục vụ hàng tỉ người dùng QQ';
+	@override String get k_036phup => 'Tencent Cloud IM';
+	@override String get k_0gfsln9 => 'Thông tin đã thay đổi';
+	@override String get k_0ow4akh => 'Vui lòng cấu hình Baidu AK theo hướng dẫn README của Demo để trải nghiệm chức năng thông báo vị trí.';
+	@override String get k_1kzh3lo => 'Vui lòng trải nghiệm chức năng thông báo vị trí nhanh chóng theo hướng dẫn tại tài liệu này: https://docs.qq.com/doc/DSVliWE9acURta2dL';
+	@override String get k_161zzkm => 'Vui lòng nhập tên người dùng';
+	@override String get k_1veosyv => 'Vui lòng đặt key trong biến môi trường';
+	@override String get k_03exdnb => 'Tên người dùng';
+	@override String get k_16kquu8 => 'Thư mục hiện tại';
+	@override String get k_0fbvuqs => 'Bắt đầu sao chép';
+	@override String get k_16j153h => 'Ứng dụng IM của Tencent Cloud (sản phẩm này) là một sản phẩm thử nghiệm được cung cấp bởi Tencent Cloud, Tencent Cloud có bản quyền và quyền sở hữu sản phẩm này. Sản phẩm chỉ được sử dụng để trải nghiệm chức năng, không được sử dụng cho bất kỳ mục đích thương mại nào. Nghiêm cấm việc phát tán nội dung vi phạm pháp luật như khiêu dâm, lăng mạ, bạo lực, liên quan đến chính trị trong quá trình sử dụng.';
+	@override String get k_13ghyf8 => '【Lưu ý về an ninh】Ứng dụng này chỉ dùng để trải nghiệm chức năng sản phẩm IM trực tuyến của Tencent Cloud, không thể sử dụng cho việc thương lượng và mở rộng kinh doanh. Xin vui lòng không tin tưởng dễ dàng vào các thông tin liên quan đến chuyển tiền, trúng thưởng và không gọi điện thoại cho số lạ, để phòng tránh bị lừa đảo.';
+	@override String get k_0gt6cro => 'Báo cáo tại đây';
+	@override String k_03595fk({required Object option1}) => 'và $option1 người khác';
+	@override String k_1gpzgni({required Object option2}) => 'nhóm $option2 người';
+	@override String get k_02lfg57 => 'Nhóm trò chuyện mới';
+	@override String get k_17ifd8i => 'Chào mừng bạn đến với ứng dụng này để trải nghiệm dịch vụ sản phẩm IM của Tencent Cloud';
+	@override String get k_1f0ms23 => 'Trạng thái đọc tin nhắn';
+	@override String get k_1c0x9ha => 'Sau khi tắt, tin nhắn bạn gửi và nhận sẽ không có trạng thái đọc tin nhắn, bạn sẽ không thể biết được đối phương đã đọc tin nhắn hay chưa, đồng thời đối phương cũng không thể biết được bạn đã đọc hay chưa.';
+	@override String get k_1dzhdr5 => 'Hiển thị trạng thái trực tuyến';
+	@override String get k_0mwsniq => 'Sau khi tắt, bạn sẽ không thể thấy được trạng thái trực tuyến hoặc ngoại tuyến của bạn bè trong danh sách cuộc trò chuyện và danh bạ.';
+	@override String get k_0f7h6ay => 'Kết nối thất bại';
+	@override String get k_0wreawq => 'Plugin Baidu Map không hỗ trợ phiên bản trang web, vui lòng trải nghiệm chức năng thông báo vị trí trên APP trên điện thoại di động.';
+	@override String get k_03c56co => 'Không chọn';
+	@override String get k_1klqdh1 => 'Chỉ cho phép ký tự chữ cái, số và gạch dưới';
+	@override String get k_03el5lp => 'Chưa điền';
+	@override String get k_0554lam => 'Nhóm công việc bạn bè (Work)';
+	@override String get k_1hyz1ua => 'Nhóm giao tiếp với người lạ (Public)';
+	@override String get k_1s8hjin => 'Nhóm họp tạm thời (Meeting)';
+	@override String get k_16ejs8f => 'Nhóm trò chuyện trực tuyến (AVChatRoom)';
+	@override String get k_1rqdzbh => 'Cộng đồng (Community)';
+	@override String get k_1aue1b6 => 'Tương tự nhóm WeChat thông thường, sau khi tạo nhóm chỉ hỗ trợ mời bạn bè trong nhóm và không cần sự đồng ý hoặc phê duyệt từ phía người được mời.';
+	@override String get k_0uldek7 => 'Tương tự nhóm QQ, sau khi tạo nhóm, chủ nhóm có thể chỉ định quản trị viên nhóm, sau khi người dùng tìm kiếm ID nhóm và gửi yêu cầu tham gia, cần chủ nhóm hoặc quản trị viên phê duyệt mới có thể tham gia nhóm.';
+	@override String get k_1nv4w25 => 'Sau khi tạo nhóm, người dùng có thể tự do tham gia và rời khỏi nhóm, và hỗ trợ xem tin nhắn trước khi tham gia nhóm; phù hợp với các kịch bản hội nghị âm thanh, hợp tác giáo dục trực tuyến và kết hợp với các sản phẩm âm thanh, hình ảnh và video thời gian thực.';
+	@override String get k_1wbmoof => 'Sau khi tạo nhóm, người dùng có thể tự do tham gia và rời khỏi nhóm, không giới hạn số lượng thành viên trong nhóm, nhưng không hỗ trợ lưu trữ tin nhắn lịch sử; phù hợp với kịch bản kết hợp với sản phẩm trực tiếp, sử dụng trong trò chuyện đồng hồ.';
+	@override String get k_11mlyaa => 'Sau khi tạo nhóm, người dùng có thể tự do tham gia và rời khỏi nhóm, tối đa hỗ trợ 10 vạn người, hỗ trợ lưu trữ tin nhắn lịch sử, sau khi người dùng tìm kiếm ID nhóm và gửi yêu cầu tham gia nhóm, không cần phê duyệt từ quản trị viên để tham gia nhóm.';
+	@override String get k_0ylgdrb => 'DEMO Cộng đồng đang được phát triển và sẽ sớm được ra mắt';
+	@override String get k_0elsjm2 => 'Tạo nhóm trò chuyện';
+	@override String get k_1iw4gdk => 'Cho phép bất kỳ ai';
+	@override String get k_0i5ffqf => 'Yêu cầu thông tin xác nhận';
+	@override String get k_111mgqj => 'Cấm kết bạn với tôi';
+	@override String get k_03go2lu => 'Không xác định';
+	@override String get k_15zb99m => 'Cách kết bạn với tôi';
+	@override String get k_1llp7tu => 'Người dùng không tồn tại';
+	@override String get k_0tbyqyb => 'Đang tải...';
+	@override String get k_0td1p3f => 'Đang lưu...';
+	@override String get k_1ui0gai => 'Tìm kiếm nội dung cụ thể';
+	@override String get k_03agld7 => 'Nhắc nhở nhóm';
+	@override String get k_002wkr3 => 'Dịch';
+	@override String get k_13g4hxv => 'Dịch hoàn tất';
+	@override String get k_003mmoz => 'Raket';
+	@override String get k_003nogx => 'Máy bay';
+	@override String get k_003pjj6 => 'vương miện';
+	@override String get k_000340k => 'hoa';
+	@override String k_0cv8ngo({required Object option1}) => 'gửi $option1';
+	@override String get k_03a2zjl => 'gửi quà';
+	@override String get k_0003yq8 => 'bông';
+	@override String get k_13k5228 => 'đã thích phòng trực tiếp';
+	@override String get k_1k0rrvn => 'nói điều gì đó...';
+	@override String get k_13jzi5y => 'vào phòng trực tiếp';
+	@override String get k_14asoqo => 'hủy theo dõi';
+	@override String get k_003ohwe => 'theo dõi';
+	@override String k_1h33pzv({required Object option1}) => 'người hâm mộ $option1 |';
+	@override String k_07skbgr({required Object option2}) => ' theo dõi $option2';
+	@override String k_1c99nb3({required Object option1}) => '$option1 nghìn+';
+	@override String get k_19mfrrb => 'khán giả trực tuyến';
+	@override String get k_13m65um => 'thông tin khán giả';
+	@override String k_19kj6te({required Object option1}) => '$option1 lượt thích trong buổi này';
+	@override String k_1qqgjra({required Object option3}) => '$option3 tin nhắn chưa đọc';
+	@override String get k_0uubyjr => 'Dưới đây là tin nhắn chưa đọc';
+	@override String get k_0kg1wsx => 'Chọn loại nhóm';
+	@override String get k_003m6xh => 'Cài đặt';
+	@override String get k_18nszwl => 'Về chúng tôi';
+	@override String get k_003txiw => 'Về';
+	@override String get k_12fp4oc => 'Trang web chính thức';
+	@override String get k_1391sy5 => 'Phát triển một lần, đóng gói triển khai trên tất cả các nền tảng, tương thích với cả màn hình rộng và màn hình hẹp';
+	@override String get k_002vu95 => 'Chào mừng';
+	@override String get k_0o6nt4d => 'Tôi đã đọc và đồng ý ';
+	@override String get k_12l2415 => 'Các điều khoản và quy định của Tencent Cloud IM';
+	@override String get k_0rcqou9 => 'Bản quyền © 2013-2023 Tencent Cloud. Đã đăng ký bản quyền Tencent Cloud';
+	@override String get k_003lmhx => 'Nhóm';
+	@override String get k_1s251fa => 'Danh bạ & Nhóm';
+	@override String get k_0cjp3hx => 'Vui lòng chọn danh bạ hoặc nhóm để xem chi tiết';
+	@override String get k_12veoax => 'Chuyển kênh:';
+	@override String get k_002rfh9 => 'Quốc tế';
+	@override String get k_0864lq3 => 'Nếu bạn có bất kỳ câu hỏi nào trong quá trình sử dụng, vui lòng liên hệ chúng tôi qua các kênh sau';
+	@override String get k_12625cy => 'Tham gia nhóm ngay';
+	@override String get k_131lvxd => 'Tài khoản của tôi';
+	@override String get k_002qep7 => 'Giao diện';
+	@override String get k_002vbyp => 'Giao diện';
+	@override String get k_16owrwc => 'Chế độ sáng';
+	@override String get k_01zair9 => 'Chế độ tối (đang phát triển)';
+	@override String get k_002skx2 => 'Chủ đề';
+	@override String get k_002wzvs => 'Ngôn ngữ';
+	@override String get k_002woft => 'Tiếng Anh';
+	@override String get k_129eldp => 'Tiếng Trung phồn thể';
+	@override String get k_129ekqk => 'Tiếng Trung giản thể';
+	@override String get k_002whil => 'Tiếng Nhật';
+	@override String get k_002wqld => 'Tiếng Hàn';
+	@override String get k_003is6v => 'Chung';
+	@override String get k_12s2mfc => 'Xem chi tiết';
+	@override String get k_12fsjye => 'Trang web liên quan';
+	@override String get k_16uejmj => 'Trung tâm cá nhân';
+	@override String get k_0dtyory => 'Phản hồi ý kiến';
+	@override String get k_03oy6z4 => 'Tất cả SDK';
+	@override String get k_03bh54n => 'Mã nguồn';
+	@override String get k_0s3sgel => 'Xóa khỏi danh sách đen';
+	@override String get k_16as7eq => 'Phản ứng biểu cảm';
+	@override String get k_003s12u => 'Trả lời';
+	@override String get k_003s38r => 'Thêm';
+	@override String get k_003molk => 'Biểu cảm';
+	@override String get k_165bbw6 => 'Lịch sử tin nhắn';
+	@override String get k_13sqc0z => 'Xóa tin nhắn';
+	@override String get k_0glns86 => 'Xóa cuộc trò chuyện';
+	@override String get k_13s99rx => 'Xóa tất cả tin nhắn';
+	@override String get k_11vsa3j => 'Thoát nhóm';
+	@override String get k_11vvszp => 'Giải tán nhóm';
+	@override String get k_15i9w72 => 'Quản trị viên nhóm';
+	@override String get k_0p3espj => 'Đặt tên ghi chú';
+	@override String get k_118sw9v => 'Tìm kiếm ngay';
+	@override String get k_1xn4cn2 => 'Kiểm tra môi trường chạy';
+	@override String get k_0sy25ey => 'Vui lòng cài đặt môi trường chạy Microsoft Edge WebView2 để sử dụng chương trình này.';
+	@override String get k_0g4tlsb => 'Tải xuống ngay';
+	@override String get k_13ozr8k => 'Không hỗ trợ tạm thời';
+	@override String get k_16yiku8 => 'Web không hỗ trợ tìm kiếm địa phương, vui lòng sử dụng ứng dụng di động hoặc phiên bản Desktop';
+	@override String get k_003lz6t => 'Người đối diện';
+	@override String k_1xf4yre({required Object option1}) => 'Gửi cho $option1';
+	@override String get k_003por5 => 'Chụp màn hình';
+	@override String get k_0c67rdb => 'Cho phép chọn nhiều';
+	@override String get k_11lav8q => 'Bỏ phiếu ẩn danh';
+	@override String get k_137cjfq => 'Công khai kết quả';
+	@override String get k_0e3jces => 'Nhập tùy chọn';
+	@override String get k_0dcbhiz => 'Thêm tùy chọn';
+	@override String get k_003r4qf => 'Đăng';
+	@override String get k_1xa5q8q => 'Nhập chủ đề bình chọn';
+	@override String get k_003nv7m => 'Đã bỏ phiếu';
+	@override String get k_002ym5d => 'phiếu,';
+	@override String get k_003pfxt => 'Tỷ lệ';
+	@override String get k_0fxdch1 => 'Chưa khởi tạo plugin bình chọn, vui lòng khởi tạo trước';
+	@override String get k_1lzoopr => 'Không phải tin nhắn bình chọn, vui lòng kiểm tra';
+	@override String get k_03ahybu => 'Đã bỏ phiếu';
+	@override String get k_11lamu8 => 'Bỏ phiếu ngay';
+	@override String get k_0b9h7nq => 'Bình chọn đã kết thúc';
+	@override String get k_0c7zem1 => 'Gửi lại';
+	@override String get k_11l1qvo => 'Kết thúc bình chọn';
+	@override String get k_0z314c0 => '[Chọn nhiều]';
+	@override String get k_0z2zcm7 => '[Chọn một]';
+	@override String get k_0y8ap8v => '[Công khai]';
+	@override String get k_0y4cs5n => '[Riêng tư]';
+	@override String get k_0y6agtt => '[Ẩn danh]';
+	@override String get k_0y68wmo => '[Thực tế]';
+	@override String k_1pssgjf({required Object option1}) => 'Số người tham gia cần có: $option1';
+	@override String k_0x9zkqf({required Object option2}) => 'Số người tham gia thực tế: $option2';
+	@override String get k_09ikyqj => 'Xem tất cả các lựa chọn';
+	@override String k_0h2jp2z({required Object option1}) => '$option1 phiếu';
+	@override String get k_0y2zr3y => '[Bình chọn]';
+	@override String get k_11lci1l => 'Tạo bình chọn';
+	@override String get k_003l988 => 'Bình chọn';
+	@override String get k_1rw7s82 => 'Truy cập quyền truy cập video trong album để sử dụng chức năng gửi video và các tính năng khác.';
+	@override String get k_003rcwm => 'Mở';
+	@override String get k_1698c42 => 'Mở trong Finder';
+	@override String get k_066fxsz => 'Xem thư mục';
+	@override String get k_0k432y2 => 'Không thể gửi, chứa thư mục';
+	@override String get k_002wb4y => 'Cuộc trò chuyện';
+	@override String get k_0od4qyh => 'Video bất thường';
+	@override String get k_1cdzld5 => 'Vui lòng điền thông tin sản phẩm';
+	@override String get k_19qt9y2 => 'Đánh giá dịch vụ';
+	@override String get k_13s7ltw => 'Thông báo thẻ';
+	@override String get k_13ajr25 => 'Hỗ trợ trực tuyến';
+	@override String get k_0ti5mfz => 'Hiện không có hỗ trợ trực tuyến';
+	@override String get k_1bfkxg9 => 'Không hỗ trợ chuyển tệp có kích thước 0KB';
+	@override String get k_0vvsw7g => 'Xử lý tệp lỗi';
+	@override String get k_06e224q => '[Tin nhắn đã bị quản trị viên thu hồi]';
+	@override String get k_1u1mjcl => '[Tin nhắn đã bị thu hồi]';
+	@override String get k_1qcqxea => 'Chọn nhiều cuộc trò chuyện';
+	@override String get k_1qgmc20 => 'Chọn một cuộc trò chuyện';
+	@override String get k_1d8nx6f => 'Mở trong cửa sổ mới';
+	@override String get k_1hz05ax => 'Đang tải tài nguyên gốc, vui lòng đợi...';
+	@override String get k_1fszgep => 'Hãy tham gia thảo luận trên cộng đồng Zhi Liao';
+	@override String get k_1xtvvs9 => 'Cộng đồng này được phát triển trên Flutter UIKit của ứng dụng này, đảm bảo hoạt động trên tất cả các nền tảng';
+	@override String get k_0cdljc3 => 'Đi đến cộng đồng Zhi Liao';
+	@override String get k_167dvo3 => 'Chọn bạn bè';
+	@override String get k_1u1jwb8 => 'zhiliao.qq.com';
+	@override String get k_003lyik => 'Trực tiếp';
+	@override String get k_1vwbpp2 => 'Người dẫn chương trình chưa phát sóng';
+	@override String get k_1l1p7uv => 'Xếp hạng thứ 162 trong giờ';
+	@override String get k_0p7ezww => 'Chào mừng bạn đến với phòng trực tiếp! Cấm trực tiếp, tặng quà hoặc bán các sản phẩm chứa cồn cho người chưa thành niên. Nếu người dẫn chương trình bán các sản phẩm chứa cồn, vui lòng người chưa thành niên xem cùng với người giám hộ. Trong phòng trực tiếp, cấm xuất hiện nội dung vi phạm pháp luật, tệ, khiêu dâm, hút thuốc lá, uống rượu, gây thương tích v.v. Nếu người dẫn chương trình cố gắng thuyết phục khán giả trực tuyến tặng quà hay giao dịch riêng tư, hãy cân nhắc kỹ để tránh mất mát về tài sản và sức khỏe. Vui lòng nhấp vào nút giỏ hàng dưới đây để mua hàng, không giao dịch riêng tư. Hãy chú ý đến an toàn tài sản và cẩn trọng để tránh lừa đảo trên mạng.';
+	@override String get k_0zw0eau => 'Cuộc sống giữa gió và mưa';
 }
 
 // Path: <root>
@@ -6303,6 +7063,748 @@ extension on _StringsKo {
 			'k_1l1p7uv': '시간별 순위 162위',
 			'k_0p7ezww': '라이브 방에 오신 것을 환영합니다! 미성년자는 동영상 라이브 예능, 페이팔 또는 미성년자에게 술을 판매하는 것은 금지됩니다. 만약 술을 판매하는 브로드캐스트의 경 배경, 미성년자는 보호자의 동행 아래 만나시길 바랍니다. 브로드캐스트 방송에는 불법, 방송 아스크, 저속, 술, 신체 상해 내용이 엄격하게 금지됩니다. 라이브 방송 중 불올바른 방법으로 팁(리워드) 및 개별 거래가 주의하도록 부탁드립니다. 재산 손실 방지 상품 구매를 원하시면 아래 아이콘을 클릭바랍니다. 비공식 개별 거래 금지. 모든 국민들의 재산을 안전하게 유지하려고 인터넷 사기를 방지하십시오.',
 			'k_0zw0eau': 'Flutter',
+		};
+	}
+}
+
+extension on _StringsVi {
+	Map<String, dynamic> _buildFlatMap() {
+		return <String, dynamic>{
+			'k_1yemzyd': 'Nhận một tin nhắn',
+			'k_0ylosxn': 'Tin nhắn tùy chỉnh',
+			'k_13sajrj': 'Tin nhắn biểu cảm',
+			'k_13sjeb7': 'Tin nhắn tệp',
+			'k_0yd2ft8': 'Tin nhắn nhóm',
+			'k_13s7mxn': 'Tin nhắn hình ảnh',
+			'k_13satlt': 'Tin nhắn vị trí',
+			'k_00bbtsx': 'Tin nhắn chuyển tiếp',
+			'k_13sqwu4': 'Tin nhắn thoại',
+			'k_13sqjjp': 'Tin nhắn video',
+			'k_1fdhj9g': 'Phiên bản này không hỗ trợ tin nhắn này',
+			'k_06pujtm': 'Đồng ý cho tất cả người dùng kết bạn',
+			'k_0gyhkp5': 'Yêu cầu xác minh',
+			'k_121ruco': 'Từ chối ai đó kết bạn',
+			'k_05nspni': 'Trường tùy chỉnh',
+			'k_03fchyy': 'Ảnh đại diện nhóm',
+			'k_03i9mfe': 'Giới thiệu nhóm',
+			'k_03agq58': 'Tên nhóm',
+			'k_039xqny': 'Thông báo nhóm',
+			'k_003tr0a': 'Chủ nhóm',
+			'k_03c49qt': 'Cấp quyền',
+			'k_002wddw': 'Tắt tiếng',
+			'k_0got6f7': 'Bỏ tắt tiếng',
+			'k_1uaqed6': '[Tùy chỉnh]',
+			'k_0z2z7rx': '[Tiếng]',
+			'k_0y39ngu': '[Biểu tượng]',
+			'k_0y1a2my': '[Hình ảnh]',
+			'k_0z4fib8': '[Video]',
+			'k_0y24mcg': '[Vị trí]',
+			'k_0pewpd1': '[Lịch sử chat]',
+			'k_13s8d9p': 'Tin nhắn không xác định',
+			'k_1c3us5n': 'Nhóm hiện tại không hỗ trợ @ toàn bộ thành viên',
+			'k_11k579v': 'Có câu lệnh không hợp lệ trong lời nói',
+			'k_003qkx2': 'Lịch',
+			'k_003n2pz': 'Máy ảnh',
+			'k_03idjo0': 'Danh bạ',
+			'k_003ltgm': 'Vị trí',
+			'k_02k3k86': 'Micro',
+			'k_003pm7l': 'Album',
+			'k_15ao57x': 'Cho phép ghi album',
+			'k_164m3jd': 'Lưu trữ cục bộ',
+			'k_03r6qyx': 'Chúng tôi cần sự cho phép của bạn để lấy thông tin',
+			'k_02noktt': 'Không cho phép',
+			'k_00043x4': 'Tốt',
+			'k_003qzac': 'Hôm qua',
+			'k_003r39d': 'Hôm kia',
+			'k_03fqp9o': 'Chủ nhật',
+			'k_03ibg5h': 'Thứ hai',
+			'k_03i7hu1': 'Thứ ba',
+			'k_03iaiks': 'Thứ tư',
+			'k_03el9pa': 'Thứ năm',
+			'k_03i7ok1': 'Thứ sáu',
+			'k_03efxyg': 'Thứ bảy',
+			'k_003q7ba': 'Buổi chiều',
+			'k_003q7bb': 'Buổi sáng',
+			'k_003pu3h': 'Bây giờ',
+			'k_0n9pyxz': 'Người dùng không tồn tại',
+			'k_1bjwemh': 'Tìm kiếm ID người dùng',
+			'k_003kv3v': 'Tìm kiếm',
+			'k_16758qw': 'Thêm bạn',
+			'k_0i553x0': 'Nhập thông tin xác minh',
+			'k_031ocwx': 'Vui lòng điền ghi chú và nhóm',
+			'k_003ojje': 'Ghi chú',
+			'k_003lsav': 'Nhóm',
+			'k_167bdvq': 'Bạn bè của tôi',
+			'k_156b4ut': 'Yêu cầu kết bạn đã được gửi',
+			'k_002r305': 'Gửi',
+			'k_03gu05e': 'Phòng chat',
+			'k_03b4f3p': 'Nhóm họp',
+			'k_03avj1p': 'Nhóm công khai',
+			'k_03asq2g': 'Nhóm công việc',
+			'k_03b3hbi': 'Nhóm không rõ',
+			'k_1loix7s': ({required Object groupType}) => 'Loại nhóm: $groupType',
+			'k_1lqbsib': 'Nhóm chat không tồn tại',
+			'k_03h153m': 'Tìm kiếm ID nhóm',
+			'k_0oxak3r': 'Yêu cầu nhóm đã được gửi',
+			'k_002rflt': 'Xóa',
+			'k_1don84v': 'Không thể xác định tin nhắn gốc',
+			'k_003q5fi': 'Sao chép',
+			'k_003prq0': 'Chuyển tiếp',
+			'k_002r1h2': 'Chọn nhiều',
+			'k_003j708': 'Trích dẫn',
+			'k_003pqpr': 'Rút lại',
+			'k_03ezhho': 'Đã sao chép',
+			'k_11ctfsz': 'Chưa triển khai',
+			'k_1hbjg5g': '[Thông báo hệ thống nhóm]',
+			'k_03tvswb': '[Tin nhắn không xác định]',
+			'k_155cj23': 'Bạn đã thu hồi một tin nhắn,',
+			'k_0gapun3': 'Chỉnh sửa lại',
+			'k_1aszp2k': 'Bạn có chắc muốn gửi lại tin nhắn này không?',
+			'k_003rzap': 'Xác nhận',
+			'k_003nevv': 'Hủy bỏ',
+			'k_0003z7x': 'Bạn',
+			'k_002wfe4': 'Đã đọc',
+			'k_002wjlg': 'Chưa đọc',
+			'k_0h1ygf8': 'Bắt đầu cuộc gọi',
+			'k_0h169j0': 'Huỷ cuộc gọi',
+			'k_0h13jjk': 'Chấp nhận cuộc gọi',
+			'k_0h19hfx': 'Từ chối cuộc gọi',
+			'k_0obi9lh': 'Quá thời gian không trả lời',
+			'k_001nmhu': 'Mở bằng ứng dụng khác',
+			'k_1ht1b80': 'Đang nhận',
+			'k_105682d': 'Tải ảnh không thành công',
+			'k_0pytyeu': 'Lưu ảnh thành công',
+			'k_0akceel': 'Lưu ảnh không thành công',
+			'k_003rk1s': 'Lưu',
+			'k_04a0awq': '[Tin nhắn thoại]',
+			'k_105c3y3': 'Tải video không thành công',
+			'k_176rzr7': 'Lịch sử chat',
+			'k_0d5z4m5': 'Chọn người nhắc nhở',
+			'k_003ngex': 'Hoàn tất',
+			'k_1665ltg': 'Bắt đầu cuộc gọi',
+			'k_003n8b0': 'Chụp ảnh',
+			'k_003kthh': 'Ảnh',
+			'k_003tnp0': 'Tệp',
+			'k_0jhdhtp': 'Gửi thất bại, video không được lớn hơn 100MB',
+			'k_119ucng': 'Ảnh không thể trống',
+			'k_13dsw4l': 'Nhả ra để hủy',
+			'k_0am7r68': 'Vuốt lên để hủy gửi',
+			'k_15jl6qw': 'Thời gian nói quá ngắn!',
+			'k_0gx7vl6': 'Giữ để nói',
+			'k_15dlafd': 'Chuyển tiếp từng tin nhắn',
+			'k_15dryxy': 'Chuyển tiếp gộp tin nhắn',
+			'k_1eyhieh': 'Xác nhận xóa tin nhắn đã chọn',
+			'k_17fmlyf': 'Xóa cuộc trò chuyện',
+			'k_0dhesoz': 'Hủy đặt ưu tiên',
+			'k_002sk7x': 'Đặt ưu tiên',
+			'k_003ll77': 'Bản nháp',
+			'k_03icaxo': 'Tùy chỉnh',
+			'k_1uaov41': 'Tìm kiếm nội dung chat',
+			'k_003kfai': 'Không rõ',
+			'k_13dq4an': 'Tự động phê duyệt',
+			'k_0l13cde': 'Phê duyệt bởi quản trị viên',
+			'k_11y8c6a': 'Cấm tham gia nhóm',
+			'k_1kvyskd': 'Không có kết nối mạng, không thể chỉnh sửa',
+			'k_16payqf': 'Cách gia nhập nhóm',
+			'k_0vzvn8r': 'Chỉnh sửa tên nhóm',
+			'k_038lh6u': 'Quản lý nhóm',
+			'k_0k5wyiy': 'Thiết lập quản trị viên',
+			'k_0goiuwk': 'Tắt tiếng cho tất cả',
+			'k_1g889xx': 'Khi chế độ tắt tiếng cho tất cả bật lên, chỉ cho phép chủ nhóm và quản trị viên nói chuyện.',
+			'k_0wlrefq': 'Thêm thành viên cần tắt tiếng',
+			'k_0goox5g': 'Thiết lập tắt tiếng',
+			'k_08daijh': 'Thành công hủy bỏ quyền quản trị viên',
+			'k_0k5u935': 'Thêm quản trị viên',
+			'k_03enyx5': 'Thành viên trong nhóm',
+			'k_0h1svv1': 'Xóa thành viên khỏi nhóm',
+			'k_0h1g636': 'Thêm thành viên vào nhóm',
+			'k_0uj7208': 'Không có kết nối mạng, không thể xem thành viên nhóm',
+			'k_0hpukyx': 'Xem thêm thành viên nhóm',
+			'k_0qtsar0': 'Không làm phiền tin nhắn',
+			'k_0ef2a12': 'Chỉnh sửa biệt danh nhóm của tôi',
+			'k_1aajych': 'Chỉ cho phép chữ cái, số và dấu gạch dưới, từ 2-20 ký tự',
+			'k_137pab5': 'Biệt danh nhóm của tôi',
+			'k_0ivim6d': 'Chưa có thông báo nhóm',
+			'k_03eq6cn': 'Thông báo nhóm',
+			'k_002vxya': 'Chỉnh sửa',
+			'k_17fpl3y': 'Ghim cuộc trò chuyện',
+			'k_03es1ox': 'Loại nhóm',
+			'k_003mz1i': 'Đồng ý',
+			'k_003lpre': 'Từ chối',
+			'k_003qk66': 'Ảnh đại diện',
+			'k_003lhvk': 'Biệt danh',
+			'k_003ps50': 'Tài khoản',
+			'k_15lx52z': 'Chữ ký cá nhân',
+			'k_003qgkp': 'Giới tính',
+			'k_003m6hr': 'Ngày sinh',
+			'k_0003v6a': 'Nam',
+			'k_00043x2': 'Nữ',
+			'k_03bcjkv': 'Chưa cài đặt',
+			'k_11s0gdz': 'Chỉnh sửa biệt danh',
+			'k_0p3j4sd': 'Chỉ cho phép chữ cái, số và dấu gạch dưới',
+			'k_15lyvdt': 'Chỉnh sửa chữ ký',
+			'k_0vylzjp': 'Người này lười biếng, không viết gì cả',
+			'k_1hs7ese': 'Chỉnh sau khi lên mạng',
+			'k_03exjk7': 'Tên ghi chú',
+			'k_0s3skfd': 'Thêm vào danh sách chặn',
+			'k_0p3b31s': 'Chỉnh sửa tên ghi chú',
+			'k_0003y9x': 'Không có',
+			'k_11zgnfs': 'Thông tin cá nhân',
+			'k_1tez2xl': 'Chưa có chữ ký cá nhân',
+			'k_118prbn': 'Tìm kiếm toàn bộ',
+			'k_1m9dftc': 'Toàn bộ liên hệ',
+			'k_0em4gyz': 'Toàn bộ nhóm chat',
+			'k_002twmj': 'Nhóm chat',
+			'k_09kga0d': 'Lịch sử trò chuyện hơn',
+			'k_09khmso': 'Lịch sử trò chuyện liên quan',
+			'k_0vjj2kp': 'Lịch sử trò chuyện của nhóm chat',
+			'k_003n2rp': 'Chọn',
+			'k_03ignw6': 'Tất cả mọi người',
+			'k_03erpei': 'Quản trị viên',
+			'k_0qi9tno': 'Chủ nhóm, quản trị viên',
+			'k_1m9exwh': 'Liên hệ gần đây',
+			'k_119nwqr': 'Không được để trống',
+			'k_0pzwbmg': 'Lưu video thành công',
+			'k_0aktupv': 'Lưu video không thành công',
+			'k_1qbg9xc': ({required Object option8}) => '$option8 là ',
+			'k_1wq5ubm': ({required Object option7}) => '$option7 đã chỉnh sửa',
+			'k_0y5pu80': ({required Object option6}) => '$option6 đã thoát khỏi nhóm',
+			'k_0nl7cmd': ({required Object option5}) => 'Mời $option5 tham gia nhóm',
+			'k_1ju5iqw': ({required Object option4}) => 'Xóa $option4 khỏi nhóm',
+			'k_1ovt677': ({required Object option3}) => 'Người dùng $option3 đã tham gia cuộc trò chuyện nhóm',
+			'k_0k05b8b': ({required Object option2}) => '$option2 bị ',
+			'k_0wm4xeb': ({required Object option2}) => 'Tin nhắn hệ thống $option2',
+			'k_0nbq9v3': ({required Object option2}) => 'Thời gian cuộc gọi: $option2',
+			'k_0i1kf53': ({required Object option2}) => '[Tệp] $option2',
+			'k_1gnnby6': ({required Object option2}) => '$option2 muốn truy cập vào ',
+			'k_1wh4atg': ({required Object option2}) => '$option2 phút trước',
+			'k_07sh7g1': ({required Object option2}) => 'Hôm qua $option2',
+			'k_1pj8xzh': ({required Object option2}) => 'ID người dùng của tôi: $option2',
+			'k_0py1evo': ({required Object option2}) => 'Chữ ký cá nhân: $option2',
+			'k_1kvj4i2': ({required Object option2}) => '$option2 đã rút lại một tin nhắn',
+			'k_1v0lbpp': ({required Object option2}) => '“$option2” không thể mở loại tệp này tạm thời, bạn có thể sử dụng ứng dụng khác để mở và xem trước',
+			'k_0torwfz': ({required Object option2}) => 'Chọn thành công $option2',
+			'k_0i1bjah': ({required Object option1}) => '$option1 đã rút lại một tin nhắn',
+			'k_1qzxh9q': ({required Object option3}) => 'Thời gian cuộc gọi: $option3',
+			'k_0wrgmom': ({required Object option1}) => '[Cuộc nói chuyện giọng]: $option1',
+			'k_06ix2f0': ({required Object option2}) => '[Cuộc gọi video]: $option2',
+			'k_08o3z5w': ({required Object option1}) => '[Tệp] $option1',
+			'k_0ezbepg': ({required Object option2}) => '$option2[Đã @ tôi]',
+			'k_1ccnht1': ({required Object option2}) => '$option2[@Toàn bộ]',
+			'k_1k3arsw': ({required Object option2}) => 'Quản trị viên ($option2/10)',
+			'k_1d4golg': ({required Object option1}) => 'Thành viên nhóm ($option1 người)',
+			'k_1bg69nt': ({required Object option1}) => '$option1 người',
+			'k_00gjqxj': ({required Object option1}) => 'Chữ ký cá nhân: $option1',
+			'k_0c29cxr': ({required Object option1}) => '$option1 cuộc trò chuyện liên quan',
+			'k_1twk5rz': ({required Object option1}) => 'Cuộc trò chuyện với $option1',
+			'k_1vn4xq1': ({required Object adminMember}) => 'Hủy quản trị viên của $adminMember',
+			'k_0e35hsw': 'Để tiện cho việc gửi ảnh hoặc video bạn chụp đến bạn bè và thực hiện cuộc gọi video, vui lòng cho phép chúng tôi truy cập máy ảnh để chụp ảnh và video.',
+			'k_0dj6yr7': 'Để tiện cho việc gửi tin nhắn thoại, quay video và cuộc gọi âm thanh, vui lòng cho phép chúng tôi sử dụng microphone để ghi âm.',
+			'k_003qnsl': 'Lưu trữ',
+			'k_0s3rtpw': 'Để tiện cho việc xem và chọn ảnh hoặc video từ album và gửi đến bạn bè, cũng như lưu nội dung vào thiết bị của bạn, vui lòng cho phép chúng tôi truy cập ảnh và nội dung truyền thông trên thiết bị của bạn.',
+			'k_0tezv85': ({required Object option2}) => 'Yêu cầu truy cập $option2',
+			'k_002rety': 'Quyền',
+			'k_18o68ro': 'Cần cấp',
+			'k_1onpf8u': ' Quyền camera để sử dụng chức năng chụp ảnh, quay video và cuộc gọi video bình thường.',
+			'k_17irga5': ' Quyền truy cập microphone, để sử dụng các tính năng như gửi tin nhắn giọng nói, quay video, gọi video và âm thanh.',
+			'k_0572kc4': ' Quyền truy cập vào ảnh, để sử dụng các tính năng như gửi hình ảnh, video.',
+			'k_0slykws': ' Quyền truy cập ghi vào album ảnh, để sử dụng chức năng lưu trữ hình ảnh, video.',
+			'k_119pkcd': ' Quyền truy cập đọc và ghi tệp, để sử dụng tính năng xem và chọn hình ảnh trong cuộc trò chuyện và gửi tệp.',
+			'k_0gqewd3': 'Sau này',
+			'k_03eq4s1': 'Mở',
+			'k_0nt2uyg': 'Quay lại vị trí mới nhất',
+			'k_04l16at': ({required Object option1}) => '$option1 tin nhắn mới',
+			'k_13p3w93': 'Có người @ tôi',
+			'k_18w5uk6': '@ Toàn bộ',
+			'k_0jmujgh': 'Đang nhận tệp khác',
+			'k_12s5ept': 'Chi tiết tin nhắn',
+			'k_0mxa4f4': ({required Object option1}) => '$option1 đã đọc',
+			'k_061tue3': ({required Object option2}) => '$option2 đã chưa đọc',
+			'k_18qjstb': 'Chuyển nhượng chủ sở hữu',
+			'k_0on1aj2': ({required Object option2}) => 'Có $option2 tin nhắn @ tôi',
+			'k_09j4izl': '[Có người @ tôi] ',
+			'k_1oqtjw0': '[@ Toàn bộ nhóm] ',
+			'k_1x5a9vb': ({required Object option1}) => 'Tôi là: $option1',
+			'k_14n31e7': 'Yêu cầu tham gia nhóm',
+			'k_08nc5j1': ({required Object option1}) => 'Loại nhóm: $option1',
+			'k_1josu12': ({required Object option1}) => '$option1 yêu cầu tham gia nhóm',
+			'k_0n2x5s0': ({required Object option2}) => 'Thông điệp xác minh: $option2',
+			'k_03c1nx0': 'Đã đồng ý',
+			'k_03aw9w8': 'Đã từ chối',
+			'k_038ryos': 'Xử lý',
+			'k_0gw8pum': 'Yêu cầu tham gia nhóm',
+			'k_1gcvfrj': 'Vui lòng nhập ghi chú',
+			'k_002v9zj': 'Xác nhận',
+			'k_10oqrki': 'Chạm để chụp ảnh',
+			'k_0f8b3ws': 'Tải không thành công',
+			'k_11cm5lm': 'Tự lựa chọn điểm chạm',
+			'k_002uzrd': 'Xem trước',
+			'k_003qkn3': 'Quay video',
+			'k_003k6a7': 'Chụp ảnh',
+			'k_0bqpqco': 'Nút chụp ảnh',
+			'k_1626ozl': 'Dừng quay video',
+			'k_003lvmu': 'Mặt trước',
+			'k_003lued': 'Mặt sau',
+			'k_003lwzh': 'Ngoài',
+			'k_002qzi3': 'Đóng',
+			'k_003pufb': 'Tự động',
+			'k_0apm0ze': 'Đèn flash khi chụp ảnh',
+			'k_157zog5': 'Luôn bật đèn flash',
+			'k_0cfyqhy': ({required Object option1}) => '$option1 màn hình xem trước',
+			'k_0phctlz': ({required Object option2}) => 'Chế độ đèn flash: $option2',
+			'k_02vfqe0': ({required Object option3}) => 'Chuyển sang camera $option3',
+			'k_0f0y9ex': 'Thời gian nói quá ngắn',
+			'k_0ln70tk': 'Không thể mở URL',
+			'k_11a3jdv': 'Chạm để chụp ảnh, giữ để quay video',
+			'k_1k18miv': 'Vui lòng cung cấp phương thức điều hướng đến trang chủ hoặc trang khác khi rời khỏi nhóm.',
+			'k_0gmwbnd': 'Tất cả thành viên bị cấm nói chuyện',
+			'k_0got2zr': 'Bạn đã bị cấm nói chuyện',
+			'k_0y9jck8': 'Bạn phải tạo thanh tìm kiếm tùy chỉnh và xử lý việc nhấp để chuyển đến trang khác',
+			'k_0yum3tv': 'Nếu sử dụng khu vực tùy chỉnh, hãy chuyển đến thành phần tương ứng trong profileWidgetBuilder',
+			'k_09kalj0': 'Xóa lịch sử chat',
+			'k_14j5iul': 'Xóa và thoát',
+			'k_125ru1w': 'Giải tán nhóm này',
+			'k_0jtutmw': 'Sau khi thoát, bạn sẽ không nhận được tin nhắn nhóm này nữa',
+			'k_0jtzmqa': 'Sau khi giải tán, bạn sẽ không nhận được tin nhắn nhóm này nữa',
+			'k_0r8fi93': 'Thêm bạn thành công',
+			'k_02qw14e': 'Yêu cầu kết bạn đã được gửi',
+			'k_0n3md5x': 'Người dùng hiện tại bị chặn',
+			'k_094phq4': 'Thêm bạn thất bại',
+			'k_129scag': 'Xóa bạn thành công',
+			'k_129uzfn': 'Xóa bạn thất bại',
+			'k_1666isy': 'Xóa tất cả bạn',
+			'k_1679vrd': 'Thêm bạn',
+			'k_0h18bbi': 'Kết thúc cuộc gọi',
+			'k_154q2hn': 'Cuộc gọi vượt quá thời gian, không có phản hồi',
+			'k_1mnjtnc': 'Đối tác đã cúp máy',
+			'k_0l0mysn': 'Có lỗi xảy ra:',
+			'k_03fn6rg': 'Không có phản hồi',
+			'k_003luo3': 'Bận',
+			'k_154jvfi': 'Bạn bị đẩy ra',
+			'k_1sp7jp6': 'Hủy cuộc gọi',
+			'k_1045haa': 'Đang chờ đối tác chấp nhận lời mời...',
+			'k_1gq7jv7': 'Mời bạn tham gia cuộc gọi...',
+			'k_003m7ey': 'Kết thúc cuộc gọi',
+			'k_03ectox': 'Loa ngoài',
+			'k_003q2a4': 'Nhận cuộc gọi',
+			'k_03ftugq': 'Camera',
+			'k_10setgr': 'Chuyển thành cuộc gọi thoại',
+			'k_1g7i9jz': 'Chuyển đổi camera',
+			'k_15ml1ls': 'Đang chờ nhận cuộc gọi',
+			'k_0nj9x9s': 'Mời bạn tham gia cuộc gọi nhiều người',
+			'k_1vtto3l': 'Người tham gia cuộc gọi còn có:',
+			'k_0h147mx': 'Đang trong cuộc gọi',
+			'k_0j6aylo': ({required Object option1}) => 'Thời gian cuộc gọi: $option1',
+			'k_1fu9ahv': 'Trạng thái tắt tiếng toàn bộ',
+			'k_1ualc52': 'Kiểm tra dữ liệu mà đối tác mang theo',
+			'k_0szluvp': 'Đặt trạng thái trực tuyến cho đối tác',
+			'k_0f4rnf8': 'Người dùng này đã là bạn',
+			'k_1tdkom4': 'Bạn đã là thành viên nhóm',
+			'k_1p2lyuz': 'Người dùng đang nhập...',
+			'k_1g8wfpy': ({required Object option1}) => '...Tổng cộng $option1 người',
+			'k_12rv9vw': 'Chi tiết phản hồi',
+			'k_0n9p7g8': 'Nhóm không tồn tại',
+			'k_1tdh5vn': 'Bạn không phải là thành viên nhóm',
+			'k_0h1q57v': 'Hiện không có thành viên nhóm',
+			'k_0y5drq1': ({required Object option1}) => '[Xem chi tiết >>]($option1)',
+			'k_03pjp61': '[Tin nhắn biểu cảm]',
+			'k_1jpvzul': '[Tin nhắn tùy chỉnh]',
+			'k_03u3bh1': '[Tin nhắn tệp tin]',
+			'k_1odsnsw': '[Tin nhắn nhóm]',
+			'k_03sel4t': '[Tin nhắn hình ảnh]',
+			'k_03sfw3r': '[Tin nhắn vị trí]',
+			'k_03xpuwq': '[Tin nhắn gộp]',
+			'k_07ycxwo': '[Không có phần tử]',
+			'k_03rc9vz': '[Tin nhắn văn bản]',
+			'k_046uopf': '[Tin nhắn video]',
+			'k_0ehmsun': 'Dung lượng lưu trữ thiết bị không đủ, vui lòng dọn dẹp để có trải nghiệm sử dụng tốt hơn',
+			'k_003kmos': 'Hình ảnh',
+			'k_002s86q': 'Video',
+			'k_06bk5ei': 'Chỉ hỗ trợ tin nhắn video định dạng mp4',
+			'k_13opfxf': 'Trang web không hỗ trợ tìm kiếm',
+			'k_1i0o0y2': 'Tạm thời chỉ hỗ trợ trên Android/iOS',
+			'k_045dtzl': ({required Object option1}) => 'Lịch sử trò chuyện của $option1',
+			'k_0t0131u': 'Thông tin nhóm',
+			'k_18ok8xz': 'Phương thức nhận tin nhắn',
+			'k_03ax3ks': 'Thông tin nhóm',
+			'k_0sqvoqo': ({required Object option1}) => 'Đặt $option1 thành quản trị viên',
+			'k_1gbg1v8': ({required Object option1}) => 'Hủy quyền quản trị viên của $option1',
+			'k_17k64g4': 'Tạo nhóm trò chuyện thành công!',
+			'k_05mn217': 'Chưa cài đặt gói biểu cảm, nếu muốn sử dụng tính năng liên quan đến biểu cảm, vui lòng cài đặt theo tài liệu này: https://cloud.tencent.com/document/product/269/70746',
+			'k_14j17nz': 'Không có gói biểu cảm',
+			'k_1tmlcf0': 'Cuộc gọi mới đến, nhưng do không đủ quyền hạn, không thể nhận cuộc gọi. Vui lòng kiểm tra và bật quyền truy cập máy ảnh/micro.',
+			'k_0fvjexh': 'Đang tải xuống',
+			'k_1cdagzz': 'Đã thêm vào hàng đợi tải xuống, đang tải các tệp khác',
+			'k_0g4vojc': 'Bắt đầu tải xuống',
+			'k_026hiq5': 'Đang tải danh sách tin nhắn',
+			'k_0b9q00i': 'Tòa nhà Tencent/////Tòa nhà South Nanshan, Đại lộ Shennan, Quận Nam Sơn, Thâm Quyến',
+			'k_03fw6h1': 'Thành phố Thâm Quyến',
+			'k_0f7mdn7': 'Tìm kiếm thất bại',
+			'k_158cssa': 'Bản đồ Tencent',
+			'k_157htdw': 'Bản đồ Amap',
+			'k_157im4z': 'Bản đồ Baidu',
+			'k_157m20e': 'Bản đồ Apple',
+			'k_1bqk7kl': 'Không tìm thấy bản đồ Amap',
+			'k_12ba1nv': 'Không tìm thấy bản đồ Tencent',
+			'k_1dz8sci': 'Không tìm thấy bản đồ Baidu',
+			'k_0f7fvky': 'Mở thất bại',
+			'k_1l2v0we': 'Trong Toà nhà Tencent, gần Toà nhà nghiên cứu thông tin CMB 18m',
+			'k_10o8gk2': 'Tìm kiếm địa điểm',
+			'k_10o86v7': 'Địa điểm không xác định',
+			'k_0elt0kw': 'Thêm nhóm trò chuyện',
+			'k_03f15qk': 'Danh sách đen',
+			'k_0s3p3ji': 'Không có danh sách đen',
+			'k_0uc5cnb': 'Chúng tôi vẫn đang trong giai đoạn thử nghiệm, chưa hỗ trợ tạo kênh.',
+			'k_0s5ey0o': 'Âm thanh và video chất lượng cao TRTC',
+			'k_03gpl3d': 'Xin chào mọi người',
+			'k_0352fjr': 'Không có kết nối mạng, không thể tham gia kênh',
+			'k_0d7n018': 'Kết thúc chủ đề',
+			'k_0d826hk': 'Ghim chủ đề',
+			'k_15wcgna': 'Kết thúc thành công',
+			'k_15wo7xu': 'Ghim thành công',
+			'k_02slfpm': ({required Object errorMessage}) => 'Xảy ra lỗi $errorMessage',
+			'k_0h22snw': 'Cuộc gọi thoại',
+			'k_0h20hg5': 'Cuộc gọi video',
+			'k_002s934': 'Chủ đề',
+			'k_18g3zdo': 'Giao tiếp thông tin đám mây·IM',
+			'k_1m8vyp0': 'Người liên hệ mới',
+			'k_0elz70e': 'Nhóm trò chuyện của tôi',
+			'k_18tb4mo': 'Không có người liên hệ',
+			'k_18nuh87': 'Liên hệ với chúng tôi',
+			'k_1uf134v': 'Phản hồi và đề xuất có thể tham gia vào nhóm QQ: 788910197',
+			'k_0xlhhrn': 'Thời gian trực tuyến: Thứ hai đến thứ sáu, từ 10 giờ sáng đến 8 giờ tối',
+			'k_0gmpgcg': 'Không có cuộc trò chuyện',
+			'k_1m8zuj4': 'Chọn người liên hệ',
+			'k_002tu9r': 'Hiệu suất',
+			'k_0vwtop2': ({required Object getMsg}) => 'Thông báo nhận được: $getMsg',
+			'k_0upijvs': ({required Object message}) => 'Lấy danh sách vùng thảo luận không thành công $message',
+			'k_1tmcw5c': 'Vui lòng điền tiêu đề chủ đề',
+			'k_1cnmslk': 'Phải chọn một nhãn',
+			'k_0v5hlay': ({required Object message}) => 'Tạo chủ đề thất bại $message',
+			'k_0z3ytji': 'Tạo chủ đề thành công',
+			'k_1a8vem3': 'Người tạo gặp sự cố',
+			'k_0eskkr1': 'Chọn vùng thảo luận',
+			'k_0d7plb5': 'Tạo chủ đề',
+			'k_144t0ho': '---- Thảo luận liên quan ----',
+			'k_0pnz619': 'Nhập tiêu đề chủ đề',
+			'k_136v279': '+Nhãn (thêm ít nhất một)',
+			'k_04hjhvp': 'Tham số vùng thảo luận bất thường',
+			'k_002r79h': 'Tất cả',
+			'k_03ejkb6': 'Đã tham gia',
+			'k_172tngw': 'Chủ đề (không kết nối)',
+			'k_0rnmfc4': 'Không có chủ đề trong vùng thảo luận này',
+			'k_1pq0ybn': 'Chưa tham gia bất kỳ chủ đề nào',
+			'k_0bh95w0': 'Không có kết nối mạng, không thể truy cập vào chủ đề',
+			'k_0em28sp': 'Không có nhóm trò chuyện',
+			'k_04dqh36': 'Không có danh sách liên hệ mới',
+			'k_08k00l9': 'Đang tải...',
+			'k_197r4f7': 'Kết nối dịch vụ tức thì thành công',
+			'k_1s5xnir': 'Khởi tạo SDK trò chuyện tức thì thất bại',
+			'k_0owk5ss': ({required Object failedReason}) => 'Đăng nhập thất bại $failedReason',
+			'k_15bxnkw': 'Mất kết nối mạng',
+			'k_0glj9us': 'Bắt đầu cuộc trò chuyện',
+			'k_1631kyh': 'Tạo nhóm làm việc',
+			'k_1644yii': 'Tạo nhóm xã hội',
+			'k_1fxfx04': 'Tạo nhóm họp',
+			'k_1cnkqc9': 'Tạo nhóm trực tiếp',
+			'k_002r09z': 'Kênh',
+			'k_003nvk2': 'Thông báo',
+			'k_1jwxwgt': 'Đang kết nối...',
+			'k_03gm52d': 'Danh bạ',
+			'k_003k7dc': 'Của tôi',
+			'k_14yh35u': 'Đăng nhập · Trò chuyện trực tiếp',
+			'k_0st7i3e': 'Trải nghiệm chat nhóm, trò chuyện âm thanh và video IM',
+			'k_0cr1atw': 'Trung Quốc đại lục',
+			'k_0mnxjg7': 'Chào mừng bạn đến với IM của Tencent Cloud, để bảo vệ an ninh thông tin cá nhân của bạn, chúng tôi đã cập nhật《Chính sách bảo mật》, tăng cường nội dung và mục đích cụ thể trong việc thu thập thông tin người dùng và sử dụng SDK của bên thứ ba.',
+			'k_1545beg': 'Vui lòng nhấp vào',
+			'k_0opnzp6': '《Thỏa thuận người dùng》',
+			'k_00041m1': 'và',
+			'k_0orhtx0': '《Chính sách bảo mật》',
+			'k_11x8pvm': 'Và đọc kỹ nội dung trên, nếu bạn đồng ý với những nội dung trên, hãy nhấp vào “Đồng ý và tiếp tục” để bắt đầu sử dụng sản phẩm và dịch vụ của chúng tôi!',
+			'k_17nw8gq': 'Đồng ý và tiếp tục',
+			'k_1nynslj': 'Không đồng ý và thoát',
+			'k_0jsvmjm': 'Vui lòng nhập số điện thoại di động',
+			'k_1lg8qh2': 'Định dạng số điện thoại không đúng',
+			'k_03jia4z': 'Không có kết nối mạng',
+			'k_007jqt2': 'Gửi mã xác nhận thành công',
+			'k_1a55aib': 'Mã xác thực bất thường',
+			'k_1mw45lz': ({required Object errorReason}) => 'Đăng nhập thất bại$errorReason',
+			'k_16r3sej': 'Quốc gia/Khu vực',
+			'k_15hlgzr': 'Chọn mã khu vực của quốc gia của bạn',
+			'k_1bnmt3h': 'Vui lòng sử dụng tiếng Anh để tìm kiếm',
+			'k_03fei8z': 'Số điện thoại di động',
+			'k_03aj66h': 'Mã xác nhận',
+			'k_1m9jtmw': 'Vui lòng nhập mã xác nhận',
+			'k_0y1wbxk': 'Nhận mã xác nhận',
+			'k_002ri2g': 'Đăng nhập',
+			'k_161ecly': 'Không có kết nối mạng hiện tại',
+			'k_11uz2i8': 'Thử lại kết nối mạng',
+			'k_1vhzltr': 'Tencent Cloud Chát trực tiếp IM',
+			'k_0j433ys': 'TRTC của Tencent Cloud',
+			'k_0epvs61': 'Thay đổi giao diện',
+			'k_12u8g8l': 'Tuyên bố từ chối trách nhiệm',
+			'k_1p0j8i3': 'Chát trực tiếp IM (sản phẩm “Ninh Cấm”) được cung cấp bởi Tencent Cloud, Tencent Cloud sở hữu quyền tác giả và quyền sở hữu của sản phẩm này. Sản phẩm chỉ dùng để trải nghiệm chức năng, không được sử dụng cho bất kỳ mục đích kinh doanh nào. Để phù hợp với yêu cầu giám sát của các cơ quan liên quan, tất cả hoạt động giao tiếp âm thanh và hình ảnh trong sản phẩm này sẽ được ghi âm và ghi hình, cấm nghiêm việc tiếp tay truyền tải nội dung trái pháp luật như khiêu dâm, lăng mạ hay khủng bố.',
+			'k_0k7qoht': 'Đồng ý cho bất kỳ người dùng nào thêm bạn làm bạn',
+			'k_1j91bvz': 'TUIKIT đã chọn một avatar cho bạn?',
+			'k_1wmkneq': 'Cần xác thực khi tôi thêm bạn làm bạn',
+			'k_1eitsd0': 'Về Tencent Cloud · Truyền thông',
+			'k_1919d6m': 'Quy định về quyền riêng tư',
+			'k_0wqhgor': 'Danh sách thu thập thông tin cá nhân',
+			'k_12rfxml': 'Danh sách chia sẻ thông tin bên thứ ba',
+			'k_131g7q4': 'Hủy đăng ký tài khoản',
+			'k_03fel2u': 'Số phiên bản',
+			'k_16kts8h': 'Đăng xuất',
+			'k_13spdki': 'Gửi tin nhắn',
+			'k_14c600t': 'Chỉnh sửa ghi chú',
+			'k_1f811a4': 'Hỗ trợ số, chữ, dấu gạch chân',
+			'k_11z7ml4': 'Thông tin chi tiết',
+			'k_1ajt0b1': 'Không thể lấy vị trí hiện tại',
+			'k_0lhm9xq': 'Thành công tìm kiếm',
+			'k_0fdeled': 'Không thành công tìm kiếm',
+			'k_1yh0a50': 'mapDidLoad-Đã tải xong bản đồ',
+			'k_1t2zg6h': 'Kiểm tra mã xác nhận hình ảnh không thành công',
+			'k_03ibfd2': 'Ngày chủ nhật',
+			'k_1o7lf2y': ({required Object errorMessage}) => 'Lỗi máy chủ: $errorMessage',
+			'k_118l7sq': ({required Object requestErrorMessage}) => 'Lỗi yêu cầu: $requestErrorMessage',
+			'k_003nfx9': 'Nghiêm nặng',
+			'k_003rvjp': 'Nhanh nhẹn',
+			'k_003rtht': 'Tươi sáng',
+			'k_003qxiw': 'Mơ mộng',
+			'k_0s5zoi3': ({required Object option1}) => 'Đã xảy ra lỗi $option1',
+			'k_0i8egqa': ({required Object option8}) => 'Thông báo nhận được: $option8',
+			'k_0pokyns': ({required Object option8}) => 'Không thể lấy danh sách diễn đàn $option8',
+			'k_1y03m8a': ({required Object option8}) => 'Không thể tạo chủ đề $option8',
+			'k_1v6uh9c': ({required Object option8}) => 'Đăng nhập không thành công $option8',
+			'k_0t5a9hl': ({required Object option1}) => 'Đăng nhập không thành công $option1',
+			'k_0k3uv02': ({required Object option8}) => 'Lỗi máy chủ: $option8',
+			'k_1g9o3kz': ({required Object option8}) => 'Lỗi yêu cầu: $option8',
+			'k_14cahuz': 'Về Tencent Cloud · IM',
+			'k_0llnalm': 'Phiên bản SDK',
+			'k_13dyfii': 'Phiên bản ứng dụng',
+			'k_12h52zh': 'Chính sách bảo mật',
+			'k_0fxhhwb': 'Điều khoản sử dụng',
+			'k_18z2e6q': 'IM Truyền tin tức thời (sản phẩm “Sản phẩm này”) được cung cấp bởi Tencent Cloud và Tencent Cloud sở hữu bản quyền và quyền sở hữu của sản phẩm này. Sản phẩm này chỉ được sử dụng cho trải nghiệm chức năng và không được sử dụng cho bất kỳ mục đích kinh doanh nào. Cấm nghiêm khắc việc truyền tải nội dung vi phạm pháp luật như nội dung khiêu dâm, lăng mạ, khủng bố, liên quan đến chính trị trong quá trình sử dụng.',
+			'k_0zu7dd7': 'Danh sách thu thập thông tin',
+			'k_0mcqhgh': 'Danh sách chia sẻ thông tin',
+			'k_12eqaty': 'Xác nhận đăng xuất tài khoản',
+			'k_0ziqsr6': 'Đăng xuất tài khoản thành công!',
+			'k_002qtgt': 'Đăng xuất',
+			'k_0rvdu91': ({required Object option1}) => 'Sau khi đăng xuất, bạn sẽ không thể sử dụng tài khoản hiện tại và dữ liệu liên quan sẽ bị xóa và không thể khôi phục. ID tài khoản hiện tại: $option1',
+			'k_15d22qk': 'Đăng xuất tài khoản',
+			'k_036uv3f': 'Tencent Cloud IM',
+			'k_167916k': 'Bạn bè WeChat',
+			'k_03euwr1': 'Vòng bạn bè',
+			'k_0cxccci': 'Mời bạn tham gia cuộc gọi video',
+			'k_06lhh4b': 'Mời bạn tham gia cuộc gọi thoại',
+			'k_1ywo9ut': 'Truyền tin tức thời IM (Truyền tin tức thời) được phát triển dựa trên khả năng IM cơ bản của QQ, chỉ cần cài đặt SDK để dễ dàng tích hợp chức năng trò chuyện, cuộc trò chuyện, nhóm, quản lý thông tin và khả năng bình luận trực tiếp, cũng hỗ trợ kết nối với các sản phẩm khác như tin nhắn tín hiệu và bảng trắng, đáp ứng đầy đủ các kịch bản kinh doanh của bạn, hỗ trợ việc tích hợp ứng dụng nhỏ trên các nền tảng lớn, đáp ứng đầy đủ nhu cầu liên lạc',
+			'k_0ios26v': 'Không phát hiện được cài đặt WeChat',
+			'k_1jg6d5x': '《Tóm tắt chính sách bảo mật》',
+			'k_0selni4': '《Chính sách bảo mật》',
+			'k_10s6v2i': '《Danh sách thu thập thông tin》',
+			'k_0pasxq8': '《Danh sách chia sẻ thông tin》',
+			'k_003r6vf': 'Đăng nhập',
+			'k_03f2zbs': 'Chia sẻ lên',
+			'k_0cfkcaz': 'Thông báo đẩy',
+			'k_1rmkb2w': 'Đẩy thông báo tin nhắn mới',
+			'k_1lg375c': 'Thông báo tin nhắn mới',
+			'k_1t0akzp': ({required Object option1}) => 'Sau khi đăng xuất, bạn sẽ không thể sử dụng tài khoản hiện tại và dữ liệu liên quan sẽ bị xóa và không thể khôi phục. ID tài khoản hiện tại: $option1',
+			'k_1699p6d': 'Tòa nhà Tencent',
+			'k_1ngd60h': 'Số 10000 Đại lộ Thâm Nam, Thâm Quyến, Trung Quốc',
+			'k_1na29vg': 'Bảo trì tin nhắn vị trí',
+			'k_1xmms9t': 'Danh sách yêu cầu tham gia nhóm',
+			'k_0dla4vp': 'Góp ý và đề xuất có thể tham gia nhóm QQ',
+			'k_1odrjd1': 'Thời gian trực tuyến: Thứ Hai đến Thứ Sáu, từ 10 giờ sáng đến 8 giờ tối',
+			'k_1bh903m': 'Sao chép thành công số nhóm QQ',
+			'k_16264lp': 'Sao chép số nhóm',
+			'k_18ger86': 'Tencent Cloud · IM',
+			'k_1vd70l1': 'Công nghệ truyền tin tức thời phục vụ hàng tỉ người dùng QQ',
+			'k_036phup': 'Tencent Cloud IM',
+			'k_0gfsln9': 'Thông tin đã thay đổi',
+			'k_0ow4akh': 'Vui lòng cấu hình Baidu AK theo hướng dẫn README của Demo để trải nghiệm chức năng thông báo vị trí.',
+			'k_1kzh3lo': 'Vui lòng trải nghiệm chức năng thông báo vị trí nhanh chóng theo hướng dẫn tại tài liệu này: https://docs.qq.com/doc/DSVliWE9acURta2dL',
+			'k_161zzkm': 'Vui lòng nhập tên người dùng',
+			'k_1veosyv': 'Vui lòng đặt key trong biến môi trường',
+			'k_03exdnb': 'Tên người dùng',
+			'k_16kquu8': 'Thư mục hiện tại',
+			'k_0fbvuqs': 'Bắt đầu sao chép',
+			'k_16j153h': 'Ứng dụng IM của Tencent Cloud (sản phẩm này) là một sản phẩm thử nghiệm được cung cấp bởi Tencent Cloud, Tencent Cloud có bản quyền và quyền sở hữu sản phẩm này. Sản phẩm chỉ được sử dụng để trải nghiệm chức năng, không được sử dụng cho bất kỳ mục đích thương mại nào. Nghiêm cấm việc phát tán nội dung vi phạm pháp luật như khiêu dâm, lăng mạ, bạo lực, liên quan đến chính trị trong quá trình sử dụng.',
+			'k_13ghyf8': '【Lưu ý về an ninh】Ứng dụng này chỉ dùng để trải nghiệm chức năng sản phẩm IM trực tuyến của Tencent Cloud, không thể sử dụng cho việc thương lượng và mở rộng kinh doanh. Xin vui lòng không tin tưởng dễ dàng vào các thông tin liên quan đến chuyển tiền, trúng thưởng và không gọi điện thoại cho số lạ, để phòng tránh bị lừa đảo.',
+			'k_0gt6cro': 'Báo cáo tại đây',
+			'k_03595fk': ({required Object option1}) => 'và $option1 người khác',
+			'k_1gpzgni': ({required Object option2}) => 'nhóm $option2 người',
+			'k_02lfg57': 'Nhóm trò chuyện mới',
+			'k_17ifd8i': 'Chào mừng bạn đến với ứng dụng này để trải nghiệm dịch vụ sản phẩm IM của Tencent Cloud',
+			'k_1f0ms23': 'Trạng thái đọc tin nhắn',
+			'k_1c0x9ha': 'Sau khi tắt, tin nhắn bạn gửi và nhận sẽ không có trạng thái đọc tin nhắn, bạn sẽ không thể biết được đối phương đã đọc tin nhắn hay chưa, đồng thời đối phương cũng không thể biết được bạn đã đọc hay chưa.',
+			'k_1dzhdr5': 'Hiển thị trạng thái trực tuyến',
+			'k_0mwsniq': 'Sau khi tắt, bạn sẽ không thể thấy được trạng thái trực tuyến hoặc ngoại tuyến của bạn bè trong danh sách cuộc trò chuyện và danh bạ.',
+			'k_0f7h6ay': 'Kết nối thất bại',
+			'k_0wreawq': 'Plugin Baidu Map không hỗ trợ phiên bản trang web, vui lòng trải nghiệm chức năng thông báo vị trí trên APP trên điện thoại di động.',
+			'k_03c56co': 'Không chọn',
+			'k_1klqdh1': 'Chỉ cho phép ký tự chữ cái, số và gạch dưới',
+			'k_03el5lp': 'Chưa điền',
+			'k_0554lam': 'Nhóm công việc bạn bè (Work)',
+			'k_1hyz1ua': 'Nhóm giao tiếp với người lạ (Public)',
+			'k_1s8hjin': 'Nhóm họp tạm thời (Meeting)',
+			'k_16ejs8f': 'Nhóm trò chuyện trực tuyến (AVChatRoom)',
+			'k_1rqdzbh': 'Cộng đồng (Community)',
+			'k_1aue1b6': 'Tương tự nhóm WeChat thông thường, sau khi tạo nhóm chỉ hỗ trợ mời bạn bè trong nhóm và không cần sự đồng ý hoặc phê duyệt từ phía người được mời.',
+			'k_0uldek7': 'Tương tự nhóm QQ, sau khi tạo nhóm, chủ nhóm có thể chỉ định quản trị viên nhóm, sau khi người dùng tìm kiếm ID nhóm và gửi yêu cầu tham gia, cần chủ nhóm hoặc quản trị viên phê duyệt mới có thể tham gia nhóm.',
+			'k_1nv4w25': 'Sau khi tạo nhóm, người dùng có thể tự do tham gia và rời khỏi nhóm, và hỗ trợ xem tin nhắn trước khi tham gia nhóm; phù hợp với các kịch bản hội nghị âm thanh, hợp tác giáo dục trực tuyến và kết hợp với các sản phẩm âm thanh, hình ảnh và video thời gian thực.',
+			'k_1wbmoof': 'Sau khi tạo nhóm, người dùng có thể tự do tham gia và rời khỏi nhóm, không giới hạn số lượng thành viên trong nhóm, nhưng không hỗ trợ lưu trữ tin nhắn lịch sử; phù hợp với kịch bản kết hợp với sản phẩm trực tiếp, sử dụng trong trò chuyện đồng hồ.',
+			'k_11mlyaa': 'Sau khi tạo nhóm, người dùng có thể tự do tham gia và rời khỏi nhóm, tối đa hỗ trợ 10 vạn người, hỗ trợ lưu trữ tin nhắn lịch sử, sau khi người dùng tìm kiếm ID nhóm và gửi yêu cầu tham gia nhóm, không cần phê duyệt từ quản trị viên để tham gia nhóm.',
+			'k_0ylgdrb': 'DEMO Cộng đồng đang được phát triển và sẽ sớm được ra mắt',
+			'k_0elsjm2': 'Tạo nhóm trò chuyện',
+			'k_1iw4gdk': 'Cho phép bất kỳ ai',
+			'k_0i5ffqf': 'Yêu cầu thông tin xác nhận',
+			'k_111mgqj': 'Cấm kết bạn với tôi',
+			'k_03go2lu': 'Không xác định',
+			'k_15zb99m': 'Cách kết bạn với tôi',
+			'k_1llp7tu': 'Người dùng không tồn tại',
+			'k_0tbyqyb': 'Đang tải...',
+			'k_0td1p3f': 'Đang lưu...',
+			'k_1ui0gai': 'Tìm kiếm nội dung cụ thể',
+			'k_03agld7': 'Nhắc nhở nhóm',
+			'k_002wkr3': 'Dịch',
+			'k_13g4hxv': 'Dịch hoàn tất',
+			'k_003mmoz': 'Raket',
+			'k_003nogx': 'Máy bay',
+			'k_003pjj6': 'vương miện',
+			'k_000340k': 'hoa',
+			'k_0cv8ngo': ({required Object option1}) => 'gửi $option1',
+			'k_03a2zjl': 'gửi quà',
+			'k_0003yq8': 'bông',
+			'k_13k5228': 'đã thích phòng trực tiếp',
+			'k_1k0rrvn': 'nói điều gì đó...',
+			'k_13jzi5y': 'vào phòng trực tiếp',
+			'k_14asoqo': 'hủy theo dõi',
+			'k_003ohwe': 'theo dõi',
+			'k_1h33pzv': ({required Object option1}) => 'người hâm mộ $option1 |',
+			'k_07skbgr': ({required Object option2}) => ' theo dõi $option2',
+			'k_1c99nb3': ({required Object option1}) => '$option1 nghìn+',
+			'k_19mfrrb': 'khán giả trực tuyến',
+			'k_13m65um': 'thông tin khán giả',
+			'k_19kj6te': ({required Object option1}) => '$option1 lượt thích trong buổi này',
+			'k_1qqgjra': ({required Object option3}) => '$option3 tin nhắn chưa đọc',
+			'k_0uubyjr': 'Dưới đây là tin nhắn chưa đọc',
+			'k_0kg1wsx': 'Chọn loại nhóm',
+			'k_003m6xh': 'Cài đặt',
+			'k_18nszwl': 'Về chúng tôi',
+			'k_003txiw': 'Về',
+			'k_12fp4oc': 'Trang web chính thức',
+			'k_1391sy5': 'Phát triển một lần, đóng gói triển khai trên tất cả các nền tảng, tương thích với cả màn hình rộng và màn hình hẹp',
+			'k_002vu95': 'Chào mừng',
+			'k_0o6nt4d': 'Tôi đã đọc và đồng ý ',
+			'k_12l2415': 'Các điều khoản và quy định của Tencent Cloud IM',
+			'k_0rcqou9': 'Bản quyền © 2013-2023 Tencent Cloud. Đã đăng ký bản quyền Tencent Cloud',
+			'k_003lmhx': 'Nhóm',
+			'k_1s251fa': 'Danh bạ & Nhóm',
+			'k_0cjp3hx': 'Vui lòng chọn danh bạ hoặc nhóm để xem chi tiết',
+			'k_12veoax': 'Chuyển kênh:',
+			'k_002rfh9': 'Quốc tế',
+			'k_0864lq3': 'Nếu bạn có bất kỳ câu hỏi nào trong quá trình sử dụng, vui lòng liên hệ chúng tôi qua các kênh sau',
+			'k_12625cy': 'Tham gia nhóm ngay',
+			'k_131lvxd': 'Tài khoản của tôi',
+			'k_002qep7': 'Giao diện',
+			'k_002vbyp': 'Giao diện',
+			'k_16owrwc': 'Chế độ sáng',
+			'k_01zair9': 'Chế độ tối (đang phát triển)',
+			'k_002skx2': 'Chủ đề',
+			'k_002wzvs': 'Ngôn ngữ',
+			'k_002woft': 'Tiếng Anh',
+			'k_129eldp': 'Tiếng Trung phồn thể',
+			'k_129ekqk': 'Tiếng Trung giản thể',
+			'k_002whil': 'Tiếng Nhật',
+			'k_002wqld': 'Tiếng Hàn',
+			'k_003is6v': 'Chung',
+			'k_12s2mfc': 'Xem chi tiết',
+			'k_12fsjye': 'Trang web liên quan',
+			'k_16uejmj': 'Trung tâm cá nhân',
+			'k_0dtyory': 'Phản hồi ý kiến',
+			'k_03oy6z4': 'Tất cả SDK',
+			'k_03bh54n': 'Mã nguồn',
+			'k_0s3sgel': 'Xóa khỏi danh sách đen',
+			'k_16as7eq': 'Phản ứng biểu cảm',
+			'k_003s12u': 'Trả lời',
+			'k_003s38r': 'Thêm',
+			'k_003molk': 'Biểu cảm',
+			'k_165bbw6': 'Lịch sử tin nhắn',
+			'k_13sqc0z': 'Xóa tin nhắn',
+			'k_0glns86': 'Xóa cuộc trò chuyện',
+			'k_13s99rx': 'Xóa tất cả tin nhắn',
+			'k_11vsa3j': 'Thoát nhóm',
+			'k_11vvszp': 'Giải tán nhóm',
+			'k_15i9w72': 'Quản trị viên nhóm',
+			'k_0p3espj': 'Đặt tên ghi chú',
+			'k_118sw9v': 'Tìm kiếm ngay',
+			'k_1xn4cn2': 'Kiểm tra môi trường chạy',
+			'k_0sy25ey': 'Vui lòng cài đặt môi trường chạy Microsoft Edge WebView2 để sử dụng chương trình này.',
+			'k_0g4tlsb': 'Tải xuống ngay',
+			'k_13ozr8k': 'Không hỗ trợ tạm thời',
+			'k_16yiku8': 'Web không hỗ trợ tìm kiếm địa phương, vui lòng sử dụng ứng dụng di động hoặc phiên bản Desktop',
+			'k_003lz6t': 'Người đối diện',
+			'k_1xf4yre': ({required Object option1}) => 'Gửi cho $option1',
+			'k_003por5': 'Chụp màn hình',
+			'k_0c67rdb': 'Cho phép chọn nhiều',
+			'k_11lav8q': 'Bỏ phiếu ẩn danh',
+			'k_137cjfq': 'Công khai kết quả',
+			'k_0e3jces': 'Nhập tùy chọn',
+			'k_0dcbhiz': 'Thêm tùy chọn',
+			'k_003r4qf': 'Đăng',
+			'k_1xa5q8q': 'Nhập chủ đề bình chọn',
+			'k_003nv7m': 'Đã bỏ phiếu',
+			'k_002ym5d': 'phiếu,',
+			'k_003pfxt': 'Tỷ lệ',
+			'k_0fxdch1': 'Chưa khởi tạo plugin bình chọn, vui lòng khởi tạo trước',
+			'k_1lzoopr': 'Không phải tin nhắn bình chọn, vui lòng kiểm tra',
+			'k_03ahybu': 'Đã bỏ phiếu',
+			'k_11lamu8': 'Bỏ phiếu ngay',
+			'k_0b9h7nq': 'Bình chọn đã kết thúc',
+			'k_0c7zem1': 'Gửi lại',
+			'k_11l1qvo': 'Kết thúc bình chọn',
+			'k_0z314c0': '[Chọn nhiều]',
+			'k_0z2zcm7': '[Chọn một]',
+			'k_0y8ap8v': '[Công khai]',
+			'k_0y4cs5n': '[Riêng tư]',
+			'k_0y6agtt': '[Ẩn danh]',
+			'k_0y68wmo': '[Thực tế]',
+			'k_1pssgjf': ({required Object option1}) => 'Số người tham gia cần có: $option1',
+			'k_0x9zkqf': ({required Object option2}) => 'Số người tham gia thực tế: $option2',
+			'k_09ikyqj': 'Xem tất cả các lựa chọn',
+			'k_0h2jp2z': ({required Object option1}) => '$option1 phiếu',
+			'k_0y2zr3y': '[Bình chọn]',
+			'k_11lci1l': 'Tạo bình chọn',
+			'k_003l988': 'Bình chọn',
+			'k_1rw7s82': 'Truy cập quyền truy cập video trong album để sử dụng chức năng gửi video và các tính năng khác.',
+			'k_003rcwm': 'Mở',
+			'k_1698c42': 'Mở trong Finder',
+			'k_066fxsz': 'Xem thư mục',
+			'k_0k432y2': 'Không thể gửi, chứa thư mục',
+			'k_002wb4y': 'Cuộc trò chuyện',
+			'k_0od4qyh': 'Video bất thường',
+			'k_1cdzld5': 'Vui lòng điền thông tin sản phẩm',
+			'k_19qt9y2': 'Đánh giá dịch vụ',
+			'k_13s7ltw': 'Thông báo thẻ',
+			'k_13ajr25': 'Hỗ trợ trực tuyến',
+			'k_0ti5mfz': 'Hiện không có hỗ trợ trực tuyến',
+			'k_1bfkxg9': 'Không hỗ trợ chuyển tệp có kích thước 0KB',
+			'k_0vvsw7g': 'Xử lý tệp lỗi',
+			'k_06e224q': '[Tin nhắn đã bị quản trị viên thu hồi]',
+			'k_1u1mjcl': '[Tin nhắn đã bị thu hồi]',
+			'k_1qcqxea': 'Chọn nhiều cuộc trò chuyện',
+			'k_1qgmc20': 'Chọn một cuộc trò chuyện',
+			'k_1d8nx6f': 'Mở trong cửa sổ mới',
+			'k_1hz05ax': 'Đang tải tài nguyên gốc, vui lòng đợi...',
+			'k_1fszgep': 'Hãy tham gia thảo luận trên cộng đồng Zhi Liao',
+			'k_1xtvvs9': 'Cộng đồng này được phát triển trên Flutter UIKit của ứng dụng này, đảm bảo hoạt động trên tất cả các nền tảng',
+			'k_0cdljc3': 'Đi đến cộng đồng Zhi Liao',
+			'k_167dvo3': 'Chọn bạn bè',
+			'k_1u1jwb8': 'zhiliao.qq.com',
+			'k_003lyik': 'Trực tiếp',
+			'k_1vwbpp2': 'Người dẫn chương trình chưa phát sóng',
+			'k_1l1p7uv': 'Xếp hạng thứ 162 trong giờ',
+			'k_0p7ezww': 'Chào mừng bạn đến với phòng trực tiếp! Cấm trực tiếp, tặng quà hoặc bán các sản phẩm chứa cồn cho người chưa thành niên. Nếu người dẫn chương trình bán các sản phẩm chứa cồn, vui lòng người chưa thành niên xem cùng với người giám hộ. Trong phòng trực tiếp, cấm xuất hiện nội dung vi phạm pháp luật, tệ, khiêu dâm, hút thuốc lá, uống rượu, gây thương tích v.v. Nếu người dẫn chương trình cố gắng thuyết phục khán giả trực tuyến tặng quà hay giao dịch riêng tư, hãy cân nhắc kỹ để tránh mất mát về tài sản và sức khỏe. Vui lòng nhấp vào nút giỏ hàng dưới đây để mua hàng, không giao dịch riêng tư. Hãy chú ý đến an toàn tài sản và cẩn trọng để tránh lừa đảo trên mạng.',
+			'k_0zw0eau': 'Cuộc sống giữa gió và mưa',
 		};
 	}
 }
